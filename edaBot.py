@@ -19,6 +19,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+app = Flask(__name__)
+
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
 aiKey = os.getenv("OPENAI_API_KEY")
@@ -115,7 +117,6 @@ if __name__ == "__main__":
         index = GPTSimpleVectorIndex.load_from_disk("index.json")
 
         bot.set_webhook(url=WEBHOOK_URL)
-        app = Flask(__name__)
 
         @app.route("/" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"])
         def method():
