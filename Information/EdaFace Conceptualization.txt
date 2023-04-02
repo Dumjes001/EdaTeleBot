@@ -1,0 +1,41 @@
+
+Eda Aggregator Conceptualization						5th September 2021
+The idea of EDA Aggregator came into Captain’s heart on 11th June 2021 while praying, hence, it is of God. 
+On 6th August 2021, Captain met with the IT guy, Kola, who built the Digital Clinic App to discuss the EDA Aggregator. 
+But Kola claimed he was interested though not showing strong commitment. Hence, Captain started praying for direction from God.
+On Sunday 5th September 2021, while doing routine exercises at 7 to 8.45pm, Captain started receiving an illumination to contact Bro. Peter at Port Elizabeth for IT recommendation.
+On 6th September 2021, Bro. Peter was contacted on phone, who immediately recommended Tony as the IT.
+On 6th September 2021, a conference call meeting between Captain, Peter and Tony was held from 17.26pm to 18.46pm to discuss the IT component of EDA Aggregator. Another meeting was scheduled for the next day.
+On 7th September 2021, Captain met with Patricia and Victoria, EDA partners, at 10 am to 15.30pm, to discuss and pray about the EDA Aggregator. It was a Teusday, which is usually praying/fasting day for EDA partners. 
+On 7th September 2021, 7.30pm to 8.33pm, a digital conference meeting via Team platform was held between Captain, Tony, Peter, Patricia, and Victoria to discuss the EDA Aggregator. 
+
+EDA Aggregator Team Members				06 September 2021
+Captain
+Bro. Peter
+Tony
+Patricia
+Victoria.
+
+Project:
+Develop a crypto aggregator
+Mint a token for the aggregator
+
+Project components:
+(1). Reflector of all cryptos
+(2). Reflector of all cex
+(3). Reflector of all dex
+(4). Marketplace for NFT
+(5). Marketplace for Gaming
+(6). Marketplace for African literatures
+
+Prototype:
+Coinmarketcap + Coingecko + Poocoin + Dextool
+
+Road Map
+Maximum duration – 6 months
+
+Core Characteristics
+1. Uncompromisable Security
+2. Super speed
+
+

@@ -1,0 +1,212 @@
+12
+NFT Marketplace
+v.1.0.3
+NFT Marketplace
+v.1.0.
+1.0. Definition4
+EdaFace NFT Marketplace is where NFTs will be displayed, minted, and traded on EdaFace.
+2.0. Target Niche
+2.0.1. End User:
+All crypto users
+2.0.2. Minters
+African artists
+African sportsmen and women
+African politicians
+Institutions
+Any Crypto users
+3.0. The Three Types of NFTs on Eda Marketplace
+Based on what they represent, NFTs on EdaFace are divided into three types:
+3.0.1. Fine Art NFTs
+These are digital images of visual arts considered to have been created primarily for aesthetic purposes
+and judged for their beauty and meaningfulness. They include:
+• Paintings
+• Sculptures
+• Drawings
+• Watercolors
+• Graphics
+• Architecture
+3.0.2. Collectible NFTs5
+A collectible is typically a manufactured item designed for people to acquire as possession. Popular
+collectible items include:
+• Stamps
+• Ancient coins
+• Rocks
+• Family artifacts
+• Religious relics, etc.
+3.0.3. Game NFTs
+These are digitalised games that can be traded as NFTs.
+• Games, e.g. in-game accessories, in-game attires, rare-game assets, etc.
+• Sports, e.g. player’s cards, player’s stats, player’s best moves, player’s collectibles like their wearables
+of jerseys, T-shirts, shoes, equipment, etc.
+4.0. Mutichain Platform
+EdaFace NFT Marketplace will be a multichain platform. It should handle all the EVM (Ethereum Virtual
+Machine) supported chains as well as non-EVM supported chains.
+Examples of the EVM-supported chains that will be part of EdaFace NFT Marketplace are:
+Ethereum
+Binance Smart Chain
+Solana
+Polygon
+Polkadot
+Avalanche
+Algorand
+Huobi ECO Chain
+Fantom
+Arbitrum, and
+OKEx Chain
+5.0. Compartments of NFT Marketplace6
+5.1. Storefront
+This is the Dashboard of Eda Marketplace.
+It will contain the following Divisions:
+5.1.1. Art Marketplace
+This is where all Fine Art NFTs will be displayed.
+The user will display his FineArt NFT (possibly, after making small amount of payment with Eda Token).
+5.2. Collectible Marketplace
+This is where all Collectible NFTs will be displayed.
+The user will display his Collectible NFT (possibly, after making small amount of payment with Eda
+Token).
+5.3. Gaming Marketplace
+This is where all Game NFTs will be displayed.
+The user will display his Game NFT (possibly, after making small amount of payment with Eda Token).
+Anyone can list their Digital Games.
+5.3.1. Division of Each Marketplace:
+(a). Transaction Arena
+Each Marketplace will be made up of a Transaction Arena.
+Transaction Arena is where the NFT will be displayed and the user will be able to buy and sell his NFT.
+Small amount of payment with Eda Token will be charge for all transactions.
+This will display the followings:
+(i). Visual NFT
+(ii). Fixed Price Purchase of the NFT
+(iii). Auction Purchase of the NFT
+(iv). Selling Price of the NFT
+5.3.2. Advanced Token Search7
+To boost client satisfaction, there will be a search button in which a customer will search for any product
+and get complete information on the searched product with ease. Such searched information should be
+meticulously arranged for customer’s convenience.
+5.3.3. Filters
+Users should be able to filter freely all assets by category, payment method, due time, and listing status.
+Using filters will be highly beneficial for clients.
+5.3.4. Ratings
+This feature will assist users who don’t know where to begin, quickly select products, and know how the
+system functions. Checking someone’s rating helps users understand whether the particular seller is
+trustworthy.
+Thus, on EdaFace Marketplace, participants can rate others and give feedback depending on their
+experience. It allows others to check the credibility of a user.
+5.3.5. Listing Status
+Users who want to list their product will need to pass the product authentication process of EdaFace.
+The reason for authentication process is to help establish and execute right ownership of the product.
+5.3.6. General Conditions for Listing on EdaFace NFT Marketplace
+Anyone can display their NFTs on the EdaFace NFT Marketplace.
+Conditions for displaying NFTs are:
+(i). Meet EDA Team TCs
+(ii). payment with EDA Tokens
+5.4. User Account
+This is where the user of NFT Marketplace will:
+(i). set up an account profile
+(ii). connect his non-custodial wallet.
+The account set up will be free.8
+EdaFace Marketplace will allow customers to send and receive NFTs and cryptocurrencies. However,
+users will need to connect their non-custodial wallets to be able send and receive NFTs and
+cryptocurrencies. Such non-custodial wallet include Metamask, WalletConnect, MyEtherWallet, Trust
+Wallet, Coinbase, Formatic, etc.
+5.5. NFT Minting
+This is where NFTs can be minted (created) on EdaFace Marketplace with minimum efforts. A page will
+be created where users can type in the detailed product description and submit files. Information like
+tags, title, and description is necessary.
+Any NFT can be minted on EdaFace after payment with EDA Token.
+5.7. Resources
+This will contain information on how to use the NFT Marketplace.
+This Resource area should be constructed in such a way that at the end, EDA will be able to add or
+remove any resource at will and at any time without having to do any extra IT coding.
+6.0. Characteristics of EdaFace Marketplace
+The following are the characteristic features of EdaFace NFT Marketplace:
+6.0.1. Security
+EdaFace NFT Marketplace should offer all the security features that make it non-hackable. There should
+be in-built security safeguards to prevent traders suffering from transaction loss.
+6.0.2. Decentralization
+The platform will be fully decentralized so that it allows for permissionless and trustless transactions.
+6.0.3. Transparency
+EdaFace Marketplace must have complete transparency to give users a clear view of all transactions.
+6.0.4. Simplicity
+All transactions on the platform should be simple and seamless. No ambiguity or complexities will be
+allowed. In other words, even a newcomer should be able to transact on EdaFace Marketplace easily.9
+6.0.5. The Monetization Model
+All transactions on EdaFace Marketplace will attract standard fees, which can be changed from time to
+time, based on the decisions of the platform Admin.
+7.0. Token Development
+Eda Token is the native utility token for EdaFace, including the EdaFace NFT Marketplace.
+Hence, Eda Token, which has been already developed, will need to be incorporated into EdaFace
+Launchpad.
+8.0. Application Types
+There should be a web-base as well as the mobile formats of the EdaFace NFT Marketplace. The mobile
+formats should support both android and IOS versions.
+9.0. EdaFace Website Integration
+EdaFace NFT Marketplace is the 5th Component of EdaFace, which is a crypto aggregator. Hence, at the
+end of its development, it should be hyperlinked and integrated to EdaFace parent website, which is
+www.edaface.com.
+10.0 Addendum
+The following addendum has been discussed between EDA and Maticz (represented by Harini) and has
+been mutually agreed upon:
+(1). How to Ensure Ownership by EDA
+(a). Automated smart contracts
+The platform will be built with automated smart contracts so that it will 100% decentralized.
+(b). Metadata:
+The data for storing the NFTs like audio, video, etc. will be saved on Metadata. EDA will be in total
+control of the data since EDA will be the admin for the platform.10
+(c). Github’s Repositories
+One or more repositories will be created by EDA so that Matics IT personnel will work from the
+repositories.
+(d). Source Codes
+Maticz will push 100% source code to EDA.
+(2). How to Ensure Security:
+(a). Decentralization
+By using smart contracts, EdaFace NFT Marketplace will be fully decentralized, thus, ensuring security.
+(b). Maticz’s Internal Audit
+Maticz’ internal auditors will audit all the smart contracts
+(c). External Audit
+EDA will bring external auditor to audit all smart contracts for enhanced security. Any loophole detected
+by the audit will be corrected by Maticz without any additional costs to EDA.
+(3). Maintenance and Support
+(a). Free Maintenance and Support
+Maticz will provide maintenance and support for free for the first three months after EdaFace NFT
+Marketplace has been launched.
+Such maintenance and support services include:
+• Fixes
+• Changes incurred during development
+(b). Hiring Maintenance and Support
+EDA can hire key personnel to maintain and support EdaFace NFT Marketplace after Maticz’ free
+support and maintenance elapses.11
+(4). Development and Phases
+EdaFace NFT Marketplace is a multichain that will be developed from scratch as follows:
+Phase 1 scratch: BNB and ETH
+Phase 2 scratch: Matic and Solana
+Phase 3: Mobile
+Phase 4 scratch: More Chains
+(5). Costs
+Phase 1 will cost 12000 USD
+(6). NFT Scope
+(i). NFT Token Development
+- refers to creating your native token for the platform
+(ii). NFT Asset Validation and Management
+- refers to managing the platform till the live deployment according to the scope
+(iii). NFT Marketplace – Fixed Price
+(iv). NFT Marketplace – Auction (Bid)
+- refers to Marketplace with the sell, buy and auction features
+(v). Wallet Management
+- refers to Wallet connection
+(vi). NFT Source File Management
+- refers to Source code management12
+(vii). Unlockable Content Management
+- refers to Admin panel maintenance (Admin can change the content, fees of the platform, etc. )
+(iv). User dashboard
+- refers to Landing page
+(viii). NFT Category management (Art, Music...etc)
+- refers to Collectibles management
+(7). Duration of Development
+The Phase 1 development of EdaFace NFT Marketplace will take 50 business days
+(8). Integration
+Maticz will do the following integrations:
+(a). Integrate Eda Token on the EdaFace NFT Marketplace
+(b). hyperlink EdaFace NFT Marketplace to EdaFace’s website (www.edaface.com).
+Copyright © 2022.
+EdaFace Marketplace is a product of EDA Holdings. All Rights Reserved.
+15th May 2022.

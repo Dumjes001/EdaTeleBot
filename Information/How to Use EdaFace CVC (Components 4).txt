@@ -1,0 +1,347 @@
+EdaFace Component 4
+
+EdaFace Component 4 is the Crypto Verification Centre (CVC). 
+
+1.0.	CVC Functions
+CVC is a platform that serves the following functions:
+• Verify Crypto scams
+• Users can search for and confirm a crypto on blockchain explorers
+
+2.0. CVC Compartments
+Crypto Verification Centre has two main compartments: 
+(a). Rugpull Detection Centre
+(b). Blockchain Ecosystem
+
+3.0. Rugpull Detection Centre
+This compartment will help user to identify Rugpull scams that are very common in the Crypto Market.
+Rugpull scams will be identified using EDA SOC 4-Year Scorecard.
+The SOC Scorecard consists of five items, each item having 2 or more evaluative features.
+The verification process of EdaFace system will automatedly confirm these evaluative features. 
+Some of these evaluative features of SOC Scorecard are compulsory; that is, they must have Automated Confirmation before any Crypto Project can be listed on EdaFace.
+
+The followings are the Five Items of SOC Scorecard:
+ 
+3.0.1. ITEM 1: PROJECT TEAM
+The identities of the Project Team MUST be identified as follows:
+
+(1). Official Names of Project Team 
+The official names and identities of each Core Project Team member must be Automatedly Confirm. 
+The Core Project Team members are:
+(i). Founder (CEO, Director, or whatever title he goes by) – the founder or the most high-ranking executive of the Crypto Project
+(ii). Chief Technical Officer (CTO) - the executive in charge of an organization's technological needs as well as its research and development 
+(iii). Chief Marketing Officer (CMO) – the CMO is the officer in charge of marketing.
+(iv). Chief Admin Officer – this is the officer in charge of personnel and company’s front office.
+(v). Head of Legal Matters
+(vi). Head of Finances
+(vii). Chairman of Board of Directors (BOD)
+
+Verification will be of three kinds:
+(a). LinkedIn account Verification
+Automated Confirmation of the LinkedIn account of each of the above Core Team Members is required. Meaning, each member must supply their LinkedIn account, which EdaFace system will confirm automatedly.
+Each confirmed LinkedIn account will be awarded a score of 0.1.
+
+(b). National Identification Verification
+All the Core Team Members mentioned above will be required to undergo National Identification Verification. This means each of them will need to upload their national identification, e.g. passport, ID card, etc. for verification. 
+Each confirmed upload of national identification will be awarded a score of 0.2.
+
+(c). Facial Recognition
+A camera will take the facial picture of each Core Team member. (An example is Binance Facial Verification).
+Each confirmed facial verification will be awarded a score of 0.2.
+
+(2). Ownership renunciation
+Evidence of Ownership Renunciation is Not An Automated Confirmation. 
+Ownership renunciation can be confirmed via websites like https://tokensniffer.com/ and http://www.bscheck.eu/bsc.
+
+(The IT developer will decide the following question: Will Ownership Renunciation require smart contract construction?).
+
+Ownership Renunciation will be awarded a score of 1.
+
+(3). Confirmation of Crypto Project Website
+This requires Automated Confirmation. 
+The website of a crypto project can be confirmed in https://whois.domaintools.com/ 
+Confirmation of Crypto Project Website will be awarded a score of 0.5.
+
+(4). Auditing
+An audit of a Crypto Project establishes reputability as well as reliability, hence, determining how the Crypto Market will react to the crypto project.
+
+The question to be answered is:
+(a). Has your Crypto Project been audited by any of the followings?
+• Certik
+• Hacken
+• ConsenSys
+
+(b). If yes, supply the URL link.
+
+Crypto Audit requires Automated Confirmation. 
+The above mentioned are the reputable crypto auditors in the industry. We will be expanding the list as more audit firms prove their reputability and reliability.
+Once your Crypto Project has been confirmed to be audited, it receives a score of 1 (0.5 point each for reputability and reliability). 
+
+3.0.2. ITEM 2: APPLICATION PROTOCOL
+(1). Project Whitepaper 
+This requires Automated Confirmation.
+It seeks to ascertain the transparency and reliability of the crypto project.
+
+The question is:
+(i). Is there a well-documented whitepaper for the Project?
+(ii). If yes, supply the whitepaper URL link.
+
+Once your Crypto Project whitepaper has been confirmed, it receives a score of 0.5 (0.25 point each for transparency and reliability). 
+
+(2). Social Media links
+This Does Not Require Automated Confirmation.
+
+(a). Does your Crypto Project have the following active social media accounts?
+(i) Twitter
+(ii) Telegram
+(iii) Facebook
+(iv) Instagram
+(v) Youtube
+
+(b). If yes, supply the URL links.
+(Note that you can Confirm Twitter account genuineness here: https://www.followeraudit.com/)
+
+Each confirmed social media platform will be rewarded with 0.1
+
+(3). Source Code (e.g. Github)
+This requires Automated Confirmation.
+It seeks to establish transparency and reliability of the crypto project.
+
+The question will be:
+(a). Does the Crypto Project have an accessible Source Code?
+(b). If yes, supply the URL link?
+
+Once confirmed, the project will be rewarded with 0.5. 
+
+(4). DeFi application 
+This Does Not Require Automated Confirmation.
+
+The question to be asked is:
+Is there or will there be a DeFi application in the crypto project within 12 months?
+
+This seeks to establish how long the crypto project will remain profitable in the market (durability).
+
+Once confirmed to have an associated DeFi program, the project will be rewarded with 0.5.
+
+(5). Locked Liquidity
+This requires Automated Confirmation.
+The question will be:
+(a). Does the wallet holding the LP pair locked?
+(b). If yes, provide the URL link.
+
+Once Locked Liquidity has been confirmed, the project will be rewarded with 1.
+
+(6). TimeLock
+The question will be:
+(a). Any timelock in contract 
+(b). If yes, provide the URL link.
+
+Putting timelocks in place: https://captainaltcoin.com/rug-pull-crypto/ 
+
+Once Time-Lock has been confirmed, the project will be rewarded with 0.5.
+
+3.0.3. ITEM 3: USE CASE
+This will identify each of the crypto’s use cases.
+This requires Automated Confirmation.
+
+The statement will be:
+Please, supply the use case(s) of your crypto (maximum three use cases):
+(i). Use Case 1
+(ii). Use Case 2
+(iii). Use Case 3, etc.
+
+Each use case that has been identified will receive a score of 0.5.
+
+3.0.4. ITEM 4: COIN SUPPLY 
+This requires Automated Confirmation.
+(1). Please, enter the Maximum Coin Supply as seen on the blockchain.
+Supply the blockchain URL of the Maximum Coin Supply.
+This will be rewarded with a score of 0.5.
+
+(2). How much coin has been burnt [Burnt Amount]?
+Supply the blockchain URL of the coin burnt.
+This will be rewarded with a score of 0.5.
+
+(3). EdaFace system will then subtract the coin burnt from the Maximum Supply. The result will yield the Total Coin Supply? 
+
+Note that where the Maximum Coin Supply is not known, you must input the Total Coin Supply.
+
+This will be rewarded with a score of 0.5.
+
+(4). Please, provide the following details on Locked-up Coins:
+(a). Amount of coins that are locked up as LP
+The URL link of the locked LP.
+
+(b). The amount of Team allocation that has been locked up
+The URL link of the Team allocation.
+
+(c). The amount of any other coins that have been locked up
+The URL link of the locked-up coins.
+
+(d). EdaFace system will automatedly sum up all the amount of coins that have been locked up [Locked-Up Amount].
+The Locked-Up Amount will be rewarded with a score of 0.5.
+
+(5). EdaFace system will now automatedly subtract the Locked-up Amount from the Total Coin Supply. The result will be the Circulating Coin Supply.
+The determination of the Circulating Coin Supply will be rewarded with a score of 0.5.
+
+3.0.5. ITEM 5: MARKET VALUE
+(1) Listed Exchanges
+(a). Indicate the Centralised Exchanges where your crypto is listed.
+Provide the URL link.
+
+(b). Indicate the Decentralized Exchanges where your crypto is listed.
+Provide the URL link.
+
+(c). When the listed exchange(s) is provided, EdaFace system will automatedly pull out the coin Current Market Price.
+The generated Market Price will receive a score of 0.5.
+
+(2). Finally, EdaFace system will multiply the generated Circulating Coin Supply by the Current Market Price. The result will be the coin’s Market Capitalization, which should appear automatically once the Circulating Supply and the Current Market price are known. 
+
+The generated Market Capitalisation will be rewarded with a score of 1.
+
+
+
+
+Table 1: SOC Scorecard for Rugpull Detection
+SOC Item	Type of Verification	Scorecard	Confirmation Type
+Item	Evaluative Feature	LinkedIn	ID	Facial	Total Score	
+Item 1: Project Team	Names of Project Team Members	Founder 	0.1	0.2	0.2	0.5	Auto
+		CTO	0.1	0.2	0.2	0.5	Auto
+		CMO	0.1	0.2	0.2	0.5	Auto
+		Chief Admin	0.1	0.2	0.2	0.5	Auto
+		Head of Legal	0.1	0.2	0.2	0.5	Auto
+		Head of Finances	0.1	0.2	0.2	0.5	Auto
+		Chair BOD	0.1	0.2	0.2	0.5 	Auto
+	Ownership renunciation					1.0	Auto
+	Website					0.5	Auto
+	Auditing					1.0	Auto
+Item 2: Application Protocol	Whitepaper					0.5 	Auto
+	Social Media	Facebook				0.1	Non-Auto
+		Instagram				0.1	Non-Auto
+		Telegram				0.1	Non-Auto
+		Twitter				0.1	Non-Auto
+		Youtube				0.1 	Non-Auto
+	Source Code					0.5	Auto
+	DeFi application					0.5	Non-Auto
+	Locked Liquidity					1.0 	Auto
+	Time-Lock					0.5	Non-Auto
+Item 3: Use Cases	Use Cases	Use Case 1				0.5	Auto
+		Use Case 2				0.5	Auto
+		Use Case 3				0.5	Auto
+Item 4: Coin Supply	Coin Supply	Max Supply				0.5	Auto
+		Burnt Amount				0.5	Auto
+		Total Coin Supply				0.5	Auto
+		Locked-up Amount				0.5	Auto
+		Circulating Supply				0.5	Auto
+Item 5: Market Value	Cex and Dex Listing	Price				0.5	Auto
+	Market Cap	Market Cap				1.0	Auto
+							
+Total						15	
+
+
+3.0.6. Summary of the SOC Scorecard
+The 5 items of the SOC 4-year Scorecard evaluate the eight components of productivity (see EDA SOC). The eight components of productivity and the number of times they have been evaluated are as follows:
+• transparency – checked six times
+• reputability – checked two times
+• reliability – checked three times
+• durability – checked two times
+• relevance – checked one time
+• uniqueness – checked one time
+• scarcity – checked two times
+• viability – checked two times
+In other words, the SOC 4-year Scorecard comprehensively analyses crypto profitability by utilising the eight components of productivity.
+
+3.0.7. SOC Interpretation of the 4-Year Scorecard
+Besides being comprehensive, the SOC 4-year Scorecard is also very SIMPLE to use. The answer to each investigative question is given a weighted score within the range of 0 to 1, giving an overall total of 15, which is expressed in percentage.
+When you input the required parameters, EdaFace system will sum up the scores, and the interpretation of the potential productivity of the crypto investment is based on this total score as follows:
+Total Score ≤ 20%: Bad Investment. 
+Total Score of 21 to 40%: Cautious Investment
+Total Score of 41 to 60%: Good Investment
+Total Score of 61 to 80%: Very Good Investment
+Total Score of 81 to 100%: Awesome Investment
+
+Table 2: SOC Interpretation of Score
+Total Score	Percentage 	Investment Interpretation 
+0 – 3.0
+3.1 – 6.0
+6.1 – 9.0 
+9.1 – 12.0
+12.1 – 15.0	0 – 20
+21 – 40
+41 – 60
+61 – 80
+81 – 100 	Bad Investment
+Cautious Investment
+Good Investment
+Very Good Investment
+Awesome Investment
+
+In other words, based on the SOC 4-year Scorecard, there are five types of outcomes in crypto investment: bad, cautious, good, very good, and awesome investment. 
+A bad investment is one you shouldn’t enter into while for a cautious investment, you have to really weigh the risks. EdaFace will not list a crypto project with a score ≤ 20%: Bad Investment.
+Generally, it is very difficult to see an awesome investment. But if you search diligently, you can get one. If you see an awesome investment, rush in with your whole heart and reap the awesome profits.
+
+Warning Note: Even though these measures will build up a measure of trust in users, there still can’t be 100% certainty that there are no malicious intents involved in a crypto project. Therefore, always DYOR and invest only what you can afford to lose.
+
+4.0. EdaFace Two Kinds of Verification
+4.0.1. Preliminary Verification
+If your Project scores above 20% SOC Scorecard, the CVC will prompt you to:
+(a). accept the terms and conditions of listing, Privacy Policy, EDA disclaimers, and all other related legal terms of service of EDA.
+(b). pay a listing fee in Eda Token. The amount being charged depends on the type of the crypto project. EDA reserves the right to change the amount of fees and the mode of payment at any point in time with or without prior notice.
+Once all these have been successfully carried out, you will be able to submit your project successfully by clicking on the “SUBMIT NOW” button.
+Once submitted, your project will automatically becomes live on EdaFace.
+The submitted project will bear the status of “Prelim Verif.” This means your Project has successfully achieved “Preliminary Verification,” which will be conspicuously visible next to your listed Project.
+
+4.0.2. Complete Verification
+To receive “Comp Verif,” which means “Complete Verification,” you may be required to submit some documentation (“Request Form”) to the CVC for manual check.
+We manually check routinely to be sure every crypto project listed on EdaFace adheres to EDA’s minimum safety listing requirements (MSLR). The required documents for submission will appear once you click on the “Complete Verification” button displayed at the CVC.
+Upon your submission of the Request Form to us, EDA will process the submitted documentation to ascertain, among other things, their authenticity. The process may take days to weeks or even months. We will do all we can to finalize the process within 90 days of receipt of the requested documents. The process is faster if all the requested documents are sent at the same time.
+EDA does a background check of the authenticity of the documents. If the process is not finalized within 90 days on submission, EDA may or may not notify you, depending on the backlog of work. In that case, you are advised to resubmit only after 90 days of non-confirmation for a Comp Verif. Crypto project that fails to receive Comp Verif after 180 days will automatically be delisted from the platform.
+
+
+
+
+
+
+
+
+
+
+
+
+5.0. Blockchain Ecosystem
+This is the Second Compartment of EdaFace Component 4.
+Users can search for and confirm a crypto on blockchain explorers.
+
+5.0.1. Display Parameters
+The Blockchain Ecosystem will display:
+(i). The list of POW blockchains
+(ii). The list of POS blockchains (delegated and nondelegated)
+(iii). The list of POA blockchains
+(iv). The list of combined blockchain algorithms
+
+(v). Check which blockchain ecosystem is a crypto
+A user can type in the name of a crypto or its contract address, and the blockchain explorer details of the crypto should be revealed:
+• Official name of the crypto
+• Symbol
+• Blockchain type
+• Decimals – referring to how much fractions you can divide the crypto
+• Website – if there is a website for the crypto project, it may be seen as well
+• Total coin supply
+• Total coin burnt
+• Contract address
+• Price chart movement
+• Holders – referring to the number of wallet addresses that hold the crypto
+• Transfers – referring to each transaction that involves the crypto
+• Analytics – gives the listing date and graphical summary of transactions involving the crypto.
+These and many other information about a crypto can be seen on the explorer. Meaning, you can see all wallets that hold the crypto and how much coins are in each of the wallet but will not be able to identify the owners of such wallets.
+
+Note:
+(a). EdaFace may start with few number of blockchain/smartchain, e.g. Ethereum, Binance, Solana, Cardano, Polkadot, Polygon (Matic), Avalanche, Algorand, etc. Then increase the number of blockchain systems as the platform matures.
+
+(b). The Blockchain Ecosystem compartment will be a modified superior version of Poocoin.app and Dextools.io.
+
+5.0.2. Benefits for Eda Token:
+The Crypto Verification offers free services. The reasons for this are:
+1. To help fight off scams in the Crypto Market and sanitize crypto transactions
+2. To drive in traffic to EdaFace 
+
+

@@ -1,0 +1,136 @@
+14th March 2023
+LOE Launching and Staking Methodology
+
+
+Launching-on-EdaFace
+Launching-on-EdaFace (LOE) is the platform where you can launch your Presales on EdaFace Launchpad. 
+LOE is different from listing your coin or token on Ongoing Presale or Upcoming Presale Platforms. Listing on Ongoing Presale or Upcoming Presale platform is simply to advertise your Crypto Project on those platforms while the Presale methodology is handled by the Crypto Project or their chosen party.
+On the other hand, LOE means your Crypto Project will not only advertise on EdaFace but its methodology will also be handled on EdaFace.
+
+The benefits the User will have by selecting LOE are:
+• at the end of your Presale, your Project will be listed on EdaFace Crypto Reflector 
+• you will receive 25% discounted amount for listing on EdaFace Crypto Reflector.
+
+Table xxx: Comparison between AOE and LOE Listings
+Item	AOE	LOE
+Listing	Advertisement only	Advertisement and Launching
+Methodology	Handled by Crypto Project	Handled by EdaFace Launchpad
+Crypto Reflector Listing	Non-automatic after Presale	Automatic after Presale
+Payment Discount	None	25% deducted listing fee
+
+
+Structure of LOE
+(1). Multi-Chain Services
+LOE will be a multi-chain launching platform. This means that a coin or token from any blockchain should be able to launch on LOE platform.
+
+(2). Methodology for the Crypto Project:
+(a). The Crypto Project that desires to launch on EdaFace will need to complete ALL the 16 Listing Parameters of EdaFace Launchpad mentioned in Section 3 above.
+(b). Link the wallet that contains the amount of crypto (coins / tokens) set aside for the ICO to the LOE platform.
+(c). Pay the preferred launching amount to EdaFace with Eda Token.
+(d). Accept the listing terms and conditions.
+(e). Click the submit button
+Once all the above conditions are met and submitted, the Crypto Project will be listed on the LOE platform.
+
+(3). Displayed Parameters
+The crypto that has been submitted on the LOE platform will have the following displayed Parameters:
+(i). Blockchain type
+(ii). A button to Connect a Non-Custodial Wallet
+(iii). Amount of Token Available for Sale
+(iv). Amount of Token Bought
+(v). Balance of Token to be Sold
+(vi). Days Remaining for the Presale
+(vii). Softcap
+(viii). Hardcap
+(ix). Displayed Price in BEP20 BNB, USDT or Eda Token
+
+(4). Methodology for the Buyer:
+The displayed crypto on the LOE platform is for the buyer to purchase. The process the buyer will take to purchase the crypto Presale is as follows:
+(1). Buy Eda Token
+(2). Stake Eda Token
+(3). Buyer connects his non-custodial wallet, e.g. Metamask or Trust Wallet, to the LOE platform
+(4). Fill in how much of the Presale crypto he wants to buy
+(5). Click “Buy Presale.”
+(6). By clicking the “Buy Presale” button, the equivalent amount of Eda Token will be deducted from the buyer’s staked tokens to pay for the Presale crypto, which will be deposited in his connected non-custodial wallet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Staking Platform
+This is where Eda Token can be staked. It is a simplified platform to make it easy for any Eda Token holder to be able to stake his token.
+
+Buttons
+For easy navigational purpose and usage, the following buttons will be available on the Staking Platform:
+(1). Connect Wallet
+This is where client should be able to connect his non-custodial wallet such as Metamask, Trust Wallet, Wallet Connect, etc.
+
+(2). Stake Button
+By clicking here, client will be able to stake his Eda Token.
+It will have the following parameters:
+(a). Duration of Staking
+The minimum duration of staking is 3 months
+Maximum duration of staking is 3 years
+
+(b). Amount for Staking
+Client should be able to stake any amount of Eda Token.
+
+(c). Interest Rate
+The interest rate for staking Eda Token is 5% APY. Since it is APY (Annual Percentage Yield), it means the interest generated will be compounding. Hence, the longer the client stakes, the more profit he will make. 
+The client should be able to see the daily increase of his staked tokens throughout the duration of the staking.
+
+(d). Confirm Staking
+After filling in the required parameters, the client will then click on Confirm Staking in order to submit his tokens to start earning the staking interest. Note that once he clicks on this button, he cannot cancel the staking process until at maturity.
+The only exception will be if he wants to buy a Presale at the LOE platform in which case he can utilize the staked Eda Token to buy the Presale at the LOE platform. 
+
+(3). Overview
+This button will display the following parameters:
+(a). Total amount of Eda Token that have been staked – the amount will display in EDA and USD
+(b). The exact amount of Eda Token that client has staked – the amount will display in EDA and USD
+(c). The amount of interest that Client has earned  – the amount will display in EDA and USD
+
+(4). Withdrawal
+This button will allow client to withdraw his Eda Token once the staking duration has matured. 
+Maturity refers to when the staking duration has been reached. Withdrawal before maturity will not be allowed. 
+
+(5). Buy Eda Token
+This should link client to EdaFace Launchpad where client should be able to buy Eda Token.
+
+Staking Methodology 
+The step-by-step on how to stake your Eda Token are as follows: 
+Step 1: Buy Eda Token and transfer it to your non-custodial wallet, e.g. your Metamask or Trust Wallet. You can buy Eda Token from EDAP by clicking here…
+Step 2. Click on the Stake Button
+Step 3. Click on Connect Wallet to connect your non-custodial wallet
+Step 4: Set the duration you want to stake. The minimum duration is 3 months while maximum is 3 years. The longer you stake, the more interest you accumulate.
+Step 5: Select the amount of Eda Token you want to stake. Note that the higher amount you stake, the more profits you will make.
+Step 6: Click Confirm Stake, and your tokens will be staked to start earning a compounded interest of 5% APY.
+
+Further Reading:
+1. https://dashboard.trustswap.org/app/launchpads 
+2. https://www.mobiloitte.com/blockchain/launchpad-development-comapny/ 
+3. https://www.westarter.org/ 
+4. https://staking.kartracingleague.com/#/ 
+
