@@ -1,6 +1,6 @@
 import os
 
-import requests
+import response as rp
 
 from flask import Flask, request
 
@@ -26,6 +26,8 @@ bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 aiKey = os.getenv("OPENAI_API_KEY")
 
 index = None
+
+rp.error_handle()
 
 
 def construct_index(directory_path):
