@@ -1,2 +1,4 @@
 .env
 telegram-server.py
+
+__pycache__
