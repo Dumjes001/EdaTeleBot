@@ -26,7 +26,6 @@ app = Flask(__name__)
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
 aiKey = os.getenv("OPENAI_API_KEY")
-print(aiKey)
 
 index = None
 
@@ -144,4 +143,3 @@ if __name__ == "__main__":
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
-
