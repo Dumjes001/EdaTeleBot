@@ -2,6 +2,8 @@ import os
 
 import response as rp
 
+from logs import get_maxi_logs, get_mini_logs
+
 from flask import Flask, request
 
 import telebot
@@ -24,6 +26,7 @@ app = Flask(__name__)
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
 aiKey = os.getenv("OPENAI_API_KEY")
+print(aiKey)
 
 index = None
 
@@ -100,14 +103,17 @@ def start_handler(message):
 @bot.message_handler(func=lambda message: True)
 def message_handler(message):
     query = message.text
-    if index is not None:
-        response = index.query(query, response_mode="compact", verbose=False)
-        # bot.send_message(chat_id=message.chat.id, text=response.response)
-    else:
-        bot.send_message(
-            chat_id=message.chat_id,
-            text="Sorry, I'm not available right now. please try again later.",
-        )
+    try:
+        if index is not None:
+            response = index.query(query, response_mode="compact", verbose=False)
+            bot.send_message(chat_id=message.chat.id, text=response.response)
+        else:
+            bot.send_message(
+                chat_id=message.chat_id,
+                text="Sorry, I'm not available right now. please try again later.",
+            )
+    except Exception as e:
+        return f"An error occured{e}, try again later!"
 
 
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
@@ -115,18 +121,27 @@ WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 # This function polls the bot on satisfaction of all the neccessary requirements
 if __name__ == "__main__":
     if aiKey and WEBHOOK_URL:
-        construct_index("C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaBot\\Info")
-        index = GPTSimpleVectorIndex.load_from_disk("index.json")
+        try:
+            construct_index(
+                "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
+            )
+            index = GPTSimpleVectorIndex.load_from_disk("index.json")
+        except Exception as e:
+            get_maxi_logs(e)
 
-        bot.set_webhook(url=WEBHOOK_URL)
+            bot.set_webhook(url=WEBHOOK_URL)
 
-        @app.route("/" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"])
-        def method():
-            update = telebot.types.Update.de_json(request.stream.read().decode("utf-8"))
-            bot.process_new_updates([update])
-            return "ok"
+            @app.route("/" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"])
+            def method():
+                update = telebot.types.Update.de_json(
+                    request.stream.read().decode("utf-8")
+                )
+                bot.process_new_updates([update])
+                return "ok"
 
-        app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+            app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+            # app.run("PORT", 3000)
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
+
