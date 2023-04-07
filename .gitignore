@@ -1,3 +1,4 @@
 .env
 telegram-server.py
 __pycache__
+bot.log

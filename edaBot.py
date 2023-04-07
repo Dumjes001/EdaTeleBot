@@ -43,7 +43,7 @@ def construct_index(directory_path):
     max_chunk_overlap = 20
 
     # set the chunk size limit
-    chunk_size_limit = 600
+    chunk_size_limit = 700
 
     # define the Logical learning Machine
     llm_predictor = LLMPredictor(
@@ -138,8 +138,8 @@ if __name__ == "__main__":
                 bot.process_new_updates([update])
                 return "ok"
 
-            app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-            # app.run("PORT", 3000)
+            # app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+            app.run(hosts="localhost", port=3000)
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
