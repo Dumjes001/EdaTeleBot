@@ -1,1 +1,1 @@
-web: python edaBot.py
+web: gunicorn -w 4 edaBot:app
