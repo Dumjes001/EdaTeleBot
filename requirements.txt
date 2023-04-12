@@ -56,6 +56,5 @@ tzdata==2023.3
 urllib3==1.26.15
 Werkzeug==2.2.3
 yarl==1.8.2
-# requirements.txt
 gunicorn==20.1.0  # Specify the desired version of gunicorn, e.g., 20.1.0
 
