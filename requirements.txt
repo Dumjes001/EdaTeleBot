@@ -56,3 +56,6 @@ tzdata==2023.3
 urllib3==1.26.15
 Werkzeug==2.2.3
 yarl==1.8.2
+# requirements.txt
+gunicorn==*  # Install the latest version of gunicorn
+
