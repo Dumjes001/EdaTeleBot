@@ -29,9 +29,9 @@ aiKey = os.getenv("OPENAI_API_KEY")
 
 index = None
 
-cache = rp.error_handle()
+#cache = rp.error_handle()
 
-print(cache)
+#print(cache)
 
 
 def construct_index(directory_path):
