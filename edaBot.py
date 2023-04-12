@@ -27,17 +27,18 @@ load_dotenv()
 # Initialize the Flask App
 app = Flask(__name__)
 
-# Setup Telegram Bot
+# Setup Telegram Bot Class
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
 # Setup the OpenAi Object
 aiKey = os.getenv("OPENAI_API_KEY")
 
+# Telegram Bot Token
+bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
+
 index = None
 
-# cache = rp.error_handle()
-
-# print(cache)
+rp.error_handle()
 
 
 def construct_index(directory_path):
@@ -141,9 +142,7 @@ def main():
 
             bot.setWebhook(url=WEBHOOK_URL)
 
-            @app.route(
-                "/telegram-updates" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"]
-            )
+            @app.route("/telegram-updates" + bot_token, methods=["POST"])
             def method():
                 update = telebot.types.Update.de_json(
                     request.stream.read().decode("utf-8")
