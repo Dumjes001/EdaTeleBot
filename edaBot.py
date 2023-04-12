@@ -139,8 +139,7 @@ def main():
         except Exception as e:
             get_maxi_logs(e)
 
-            bot.set_webhook(url=WEBHOOK_URL)
-            
+            bot.setWebhook(url=WEBHOOK_URL)
 
             @app.route(
                 "/telegram-updates" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"]
