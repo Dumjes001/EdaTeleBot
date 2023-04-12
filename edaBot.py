@@ -121,7 +121,8 @@ def message_handle(message):
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 # This function polls the bot on satisfaction of all the neccessary requirements
-if __name__ == "__main__":
+#if __name__ == "__main__":
+def main():
     if aiKey and WEBHOOK_URL:
         try:
             construct_index(
@@ -145,3 +146,6 @@ if __name__ == "__main__":
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
+
+if __name__ == "__main__":
+    main()
