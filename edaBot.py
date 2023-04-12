@@ -1,15 +1,17 @@
 import os
-
 import response as rp
-
-from logs import get_maxi_logs, get_mini_logs
-
-from flask import Flask, request
-
 import telebot
+import requests
 
+from logs import (
+    get_maxi_logs,
+    get_mini_logs,
+)
+from flask import (
+    Flask,
+    request,
+)
 from langchain import OpenAI
-
 from gpt_index import (
     SimpleDirectoryReader,
     GPTSimpleVectorIndex,
@@ -19,19 +21,23 @@ from gpt_index import (
 
 from dotenv import load_dotenv
 
+# Load Environment Variables
 load_dotenv()
 
+# Initialize the Flask App
 app = Flask(__name__)
 
+# Setup Telegram Bot
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
+# Setup the OpenAi Object
 aiKey = os.getenv("OPENAI_API_KEY")
 
 index = None
 
-#cache = rp.error_handle()
+# cache = rp.error_handle()
 
-#print(cache)
+# print(cache)
 
 
 def construct_index(directory_path):
@@ -134,6 +140,7 @@ def main():
             get_maxi_logs(e)
 
             bot.set_webhook(url=WEBHOOK_URL)
+            
 
             @app.route(
                 "/telegram-updates" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"]
