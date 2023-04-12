@@ -142,7 +142,7 @@ def main():
 
             bot.setWebhook(url=WEBHOOK_URL)
 
-            @app.route("/telegram-updates" + bot_token, methods=["POST"])
+            @app.route("/setWebhook" + bot_token, methods=["POST"])
             def method():
                 update = telebot.types.Update.de_json(
                     request.stream.read().decode("utf-8")
