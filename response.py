@@ -1,9 +1,8 @@
 import requests
 import os
 
-
+ 
 def error_handle():
-
     url = "https://api.openai.com/v1/engines/davinci-codex/completions"
 
     response = requests.get(url)

@@ -120,8 +120,9 @@ def message_handle(message):
 
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
+
 # This function polls the bot on satisfaction of all the neccessary requirements
-#if __name__ == "__main__":
+# if __name__ == "__main__":
 def main():
     if aiKey and WEBHOOK_URL:
         try:
@@ -134,7 +135,9 @@ def main():
 
             bot.set_webhook(url=WEBHOOK_URL)
 
-            @app.route("/" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"])
+            @app.route(
+                "/telegram-updates" + os.getenv("TELEGRAM_BOT_TOKEN"), methods=["POST"]
+            )
             def method():
                 update = telebot.types.Update.de_json(
                     request.stream.read().decode("utf-8")
@@ -146,6 +149,7 @@ def main():
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
+
 
 if __name__ == "__main__":
     main()
