@@ -29,7 +29,9 @@ aiKey = os.getenv("OPENAI_API_KEY")
 
 index = None
 
-rp.error.handle()
+cache = rp.error_handle()
+
+print(cache)
 
 
 def construct_index(directory_path):
@@ -43,7 +45,7 @@ def construct_index(directory_path):
     max_chunk_overlap = 20
 
     # set the chunk size limit
-    chunk_size_limit = 700
+    chunk_size_limit = 600
 
     # define the Logical learning Machine
     llm_predictor = LLMPredictor(
@@ -87,6 +89,7 @@ def greet_new_member(message):
             chat_id=message.chat.id,
             text=f"Hi! Everyone we have a new member joining us, let's give them a warm welcome.",
         )
+    pass
 
 
 # This initiates the bot on the activation of the keystroke input ("start" or "help") by the user
@@ -100,7 +103,7 @@ def start_handler(message):
 
 # This function initiates the response to prompts made by the user
 @bot.message_handler(func=lambda message: True)
-def message_handler(message):
+def message_handle(message):
     query = message.text
     try:
         if index is not None:
@@ -136,9 +139,9 @@ if __name__ == "__main__":
                     request.stream.read().decode("utf-8")
                 )
                 bot.process_new_updates([update])
-                return "ok"
+                return "ok", 200
 
-            app.run(hosts="localhost", port=3000)
+            app.run(debug=True)
 
     else:
         print("OpenAI key not found. Set it in your environment variables.")
