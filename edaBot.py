@@ -36,9 +36,15 @@ aiKey = os.getenv("OPENAI_API_KEY")
 # Telegram Bot Token
 bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
 
+# URL for the webhook
+url = f"https://api.telegram.org/bot{bot_token}/"
+
+bot.remove_webhook()
+bot.set_webhook(url=url)
+
 index = None
 
-rp.error_handle()
+# rp.error_handle()
 
 
 def construct_index(directory_path):
@@ -125,13 +131,13 @@ def message_handle(message):
         return f"An error occured{e}, try again later!"
 
 
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+#WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 
 # This function polls the bot on satisfaction of all the neccessary requirements
 # if __name__ == "__main__":
 def main():
-    if aiKey and WEBHOOK_URL:
+    if aiKey:
         try:
             construct_index(
                 "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
@@ -140,10 +146,8 @@ def main():
         except Exception as e:
             get_maxi_logs(e)
 
-            bot.setWebhook(url=WEBHOOK_URL)
-
+            # bot.setWebhook(url=WEBHOOK_URL)
             @app.route("/setWebhook" + bot_token, methods=["POST"])
-            
             def method():
                 update = telebot.types.Update.de_json(
                     request.stream.read().decode("utf-8")
@@ -156,6 +160,13 @@ def main():
     else:
         print("OpenAI key not found. Set it in your environment variables.")
 
+# @app.route("/setWebhook" + bot_token, methods=["POST"])
+# def webhook():
+#     update = telebot.types.Update.de_json(
+#         request.stream.read().decode("utf-8")
+#     )
+#     bot.process_new_updates([update])
+#     return "ok", 200
 
 if __name__ == "__main__":
     main()
