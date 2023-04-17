@@ -136,6 +136,7 @@ def message_handle(message):
 # This function polls the bot on satisfaction of all the neccessary requirements
 # if __name__ == "__main__":
 
+
 def main():
     if aiKey:
         try:
@@ -166,3 +167,6 @@ def main():
 #     )
 #     bot.process_new_updates([update])
 #     return "ok", 200
+###
+
+######
