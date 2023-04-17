@@ -1,4 +1,4 @@
-from edaBot import app
+from src.edaBot import app
 
 if __name__ == "__main__":
     app.run(debug=True)

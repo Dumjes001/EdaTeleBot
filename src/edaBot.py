@@ -36,10 +36,10 @@ aiKey = os.getenv("OPENAI_API_KEY")
 bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # URL for the webhook
-url = f"https://api.telegram.org/bot{bot_token}/"
+#url = f"https://api.telegram.org/bot{bot_token}/"
 
-bot.remove_webhook()
-bot.set_webhook(url=url)
+#bot.remove_webhook()
+#bot.set_webhook(url=url)
 
 index = None
 
@@ -148,7 +148,7 @@ def main():
             get_maxi_logs(e)
 
             # bot.setWebhook(url=WEBHOOK_URL)
-            @app.route("/setWebhook" + bot_token, methods=["POST"])
+            @app.route("setWebhook", methods=["POST", "GET"])
             def method():
                 update = telebot.types.Update.de_json(
                     request.stream.read().decode("utf-8")
@@ -167,6 +167,3 @@ def main():
 #     )
 #     bot.process_new_updates([update])
 #     return "ok", 200
-###
-
-######

@@ -1,9 +1,16 @@
 import requests
-import os
 
- 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+API_KEY = os.getenv("OPENAI_API_KEY")
+
+
 def error_handle():
-    url = "https://api.openai.com/v1/engines/davinci-codex/completions"
+    
+    url = f"https://api.openai.com/v1/engines/davinci-codex/completions{API_KEY}"
 
     response = requests.get(url)
 
