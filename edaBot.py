@@ -1,7 +1,6 @@
 import os
 import response as rp
 import telebot
-import requests
 
 from logs import (
     get_maxi_logs,
@@ -131,11 +130,12 @@ def message_handle(message):
         return f"An error occured{e}, try again later!"
 
 
-#WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+# WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
 
 # This function polls the bot on satisfaction of all the neccessary requirements
 # if __name__ == "__main__":
+
 def main():
     if aiKey:
         try:
@@ -155,10 +155,9 @@ def main():
                 bot.process_new_updates([update])
                 return "ok", 200
 
-            app.run(debug=True)
-
     else:
         print("OpenAI key not found. Set it in your environment variables.")
+
 
 # @app.route("/setWebhook" + bot_token, methods=["POST"])
 # def webhook():
@@ -167,6 +166,3 @@ def main():
 #     )
 #     bot.process_new_updates([update])
 #     return "ok", 200
-
-if __name__ == "__main__":
-    main()
