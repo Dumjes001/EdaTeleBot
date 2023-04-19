@@ -1,16 +1,14 @@
 import os
-import response as rp
 import telebot
+import time
 
 from logs import (
     get_maxi_logs,
     get_mini_logs,
 )
-from flask import (
-    Flask,
-    request,
-)
+
 from langchain import OpenAI
+
 from gpt_index import (
     SimpleDirectoryReader,
     GPTSimpleVectorIndex,
@@ -23,9 +21,6 @@ from dotenv import load_dotenv
 # Load Environment Variables
 load_dotenv()
 
-# Initialize the Flask App
-app = Flask(__name__)
-
 # Setup Telegram Bot Class
 bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 
@@ -35,15 +30,7 @@ aiKey = os.getenv("OPENAI_API_KEY")
 # Telegram Bot Token
 bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
 
-# URL for the webhook
-#url = f"https://api.telegram.org/bot{bot_token}/"
-
-#bot.remove_webhook()
-#bot.set_webhook(url=url)
-
 index = None
-
-# rp.error_handle()
 
 
 def construct_index(directory_path):
@@ -109,61 +96,62 @@ def greet_new_member(message):
 def start_handler(message):
     bot.send_message(
         chat_id=message.chat.id,
-        text="Hello! I'm Eda, your virtual assistant. How may I assist you?",
+        text="Hello! I'm Eda, your Virtual Assistant. How may I assist you?",
     )
 
 
 # This function initiates the response to prompts made by the user
 @bot.message_handler(func=lambda message: True)
+@bot.message_handler(func=lambda message: True)
 def message_handle(message):
-    query = message.text
-    try:
-        if index is not None:
-            response = index.query(query, response_mode="compact", verbose=False)
-            bot.send_message(chat_id=message.chat.id, text=response.response)
-        else:
-            bot.send_message(
-                chat_id=message.chat_id,
-                text="Sorry, I'm not available right now. please try again later.",
-            )
-    except Exception as e:
-        return f"An error occured{e}, try again later!"
+    # Handle Incoming Messages from Telegram Users
+    message_text = message.text
+    chat_id = message.chat.id
 
-
-# WEBHOOK_URL = os.getenv("WEBHOOK_URL")
-
-
-# This function polls the bot on satisfaction of all the neccessary requirements
-# if __name__ == "__main__":
-
-
-def main():
-    if aiKey:
-        try:
-            construct_index(
-                "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
-            )
-            index = GPTSimpleVectorIndex.load_from_disk("index.json")
-        except Exception as e:
-            get_maxi_logs(e)
-
-            # bot.setWebhook(url=WEBHOOK_URL)
-            @app.route("setWebhook", methods=["POST", "GET"])
-            def method():
-                update = telebot.types.Update.de_json(
-                    request.stream.read().decode("utf-8")
-                )
-                bot.process_new_updates([update])
-                return "ok", 200
-
+    if index is None:
+        response = "Index is not available, Please Try again!"
     else:
-        print("OpenAI key not found. Set it in your environment variables.")
+        results = index.query(message_text, response_mode="compact")
+        if len(results > 0):
+            result = results[0]
+            response = result["text"]
+        else:
+            response = "No matching response found"
+
+    bot.send_message(chat_id=chat_id, text=response)
 
 
-# @app.route("/setWebhook" + bot_token, methods=["POST"])
-# def webhook():
-#     update = telebot.types.Update.de_json(
-#         request.stream.read().decode("utf-8")
-#     )
-#     bot.process_new_updates([update])
-#     return "ok", 200
+# def message_handle(message):
+#     query = message.text
+#     try:
+#         if index is not None:
+#             response = index.query(query, response_mode="compact", verbose=False)
+#             bot.send_message(chat_id=message.chat.id, text=response.response)
+#         else:
+#             bot.send_message(
+#                 chat_id=message.chat_id,
+#                 text="Sorry, I'm not available right now. please try again later.",
+#             )
+#     except Exception as e:
+#         return f"An error occured{e}, try again later!"
+
+
+if aiKey:
+    # Set the directory path for GPT index
+    directory_path = (
+        "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
+    )
+
+    # Construct the GPT Index
+    construct_index(directory_path)
+
+else:
+    print("OpenAI Key not found. Please set environment variable.")
+
+
+while True:
+    try:
+        bot.polling()
+    except Exception:
+        time.sleep(10)
+    print("I'm working!")
