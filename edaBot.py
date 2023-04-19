@@ -102,11 +102,11 @@ def start_handler(message):
 
 # This function initiates the response to prompts made by the user
 @bot.message_handler(func=lambda message: True)
-@bot.message_handler(func=lambda message: True)
-def message_handle(message):
+def message_handle(update, context):
+    global index
     # Handle Incoming Messages from Telegram Users
-    message_text = message.text
-    chat_id = message.chat.id
+    message_text = update.message.text
+    chat_id = update.message.chat.id
 
     if index is None:
         response = "Index is not available, Please Try again!"
@@ -118,7 +118,7 @@ def message_handle(message):
         else:
             response = "No matching response found"
 
-    bot.send_message(chat_id=chat_id, text=response)
+    context.bot.send_message(chat_id=chat_id, text=response)
 
 
 # def message_handle(message):
@@ -154,4 +154,3 @@ while True:
         bot.polling()
     except Exception:
         time.sleep(10)
-    print("I'm working!")
