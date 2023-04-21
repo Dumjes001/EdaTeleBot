@@ -13,7 +13,9 @@ from gpt_index import (
     SimpleDirectoryReader,
     GPTSimpleVectorIndex,
     LLMPredictor,
+    GPTListIndex,
     PromptHelper,
+    readers,
 )
 
 from dotenv import load_dotenv
@@ -49,10 +51,10 @@ def construct_index(directory_path):
     # define the Logical learning Machine
     llm_predictor = LLMPredictor(
         llm=OpenAI(
-            temperature=0,
+            temperature=0.5,
             model_name="text-davinci-003",
             max_tokens=num_outputs,
-            openai_api_key=aiKey,
+            # openai_api_key=aiKey,
             # timeout=60,
         )
     )
@@ -74,6 +76,8 @@ def construct_index(directory_path):
     )
 
     index.save_to_disk("index.json")
+
+    return index
 
 
 # This function initiates the greeting of a user on addition to the group
@@ -102,38 +106,23 @@ def start_handler(message):
 
 # This function initiates the response to prompts made by the user
 @bot.message_handler(func=lambda message: True)
-def message_handle(update, context):
+def message_handle(message):
     global index
-    # Handle Incoming Messages from Telegram Users
-    message_text = update.message.text
-    chat_id = update.message.chat.id
+
+    index = GPTSimpleVectorIndex.load_from_disk(index.json)
+
+    # Handling Incoming query from Telegram Users
+    message_text = message.text
+    chat_id = message.chat.id
 
     if index is None:
-        response = "Index is not available, Please Try again!"
+        response = "Index is not available, Please Try Again!"
+
     else:
-        results = index.query(message_text, response_mode="compact")
-        if len(results > 0):
-            result = results[0]
-            response = result["text"]
-        else:
-            response = "No matching response found"
+        query = input(message_text)
+        response = index.query(query, response_mode="compact")
 
-    context.bot.send_message(chat_id=chat_id, text=response)
-
-
-# def message_handle(message):
-#     query = message.text
-#     try:
-#         if index is not None:
-#             response = index.query(query, response_mode="compact", verbose=False)
-#             bot.send_message(chat_id=message.chat.id, text=response.response)
-#         else:
-#             bot.send_message(
-#                 chat_id=message.chat_id,
-#                 text="Sorry, I'm not available right now. please try again later.",
-#             )
-#     except Exception as e:
-#         return f"An error occured{e}, try again later!"
+        bot.send_message(chat_id=chat_id, text=response)
 
 
 if aiKey:
@@ -143,7 +132,7 @@ if aiKey:
     )
 
     # Construct the GPT Index
-    construct_index(directory_path)
+    index = construct_index(directory_path)
 
 else:
     print("OpenAI Key not found. Please set environment variable.")
