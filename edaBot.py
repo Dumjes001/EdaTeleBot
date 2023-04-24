@@ -1,4 +1,5 @@
 import os
+import sys
 import telebot
 import time
 
@@ -29,8 +30,11 @@ bot = telebot.TeleBot(os.getenv("TELEGRAM_BOT_TOKEN"))
 # Setup the OpenAi Object
 aiKey = os.getenv("OPENAI_API_KEY")
 
-# Telegram Bot Token
-bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
+
+# Set the directory path for GPT index
+directory_path = (
+    "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
+)
 
 index = None
 
@@ -46,7 +50,7 @@ def construct_index(directory_path):
     max_chunk_overlap = 20
 
     # set the chunk size limit
-    chunk_size_limit = 600
+    chunk_size_limit = 512
 
     # define the Logical learning Machine
     llm_predictor = LLMPredictor(
@@ -54,10 +58,9 @@ def construct_index(directory_path):
             temperature=0.5,
             model_name="text-davinci-003",
             max_tokens=num_outputs,
-            # openai_api_key=aiKey,
-            # timeout=60,
         )
     )
+    print(llm_predictor)
 
     prompt_helper = PromptHelper(
         max_input_size,
@@ -77,6 +80,8 @@ def construct_index(directory_path):
 
     index.save_to_disk("index.json")
 
+    print("Index Created Successfully")
+
     return index
 
 
@@ -92,7 +97,6 @@ def greet_new_member(message):
             chat_id=message.chat.id,
             text=f"Hi! Everyone we have a new member joining us, let's give them a warm welcome.",
         )
-    pass
 
 
 # This initiates the bot on the activation of the keystroke input ("start" or "help") by the user
@@ -104,35 +108,47 @@ def start_handler(message):
     )
 
 
+def respond(query, bot, chat_id):
+    prompt_indices = index.search(query)
+    response = index.generate_text_from_indices(prompt_indices)
+    bot.send_message(chat_id, response)
+
+
 # This function initiates the response to prompts made by the user
 @bot.message_handler(func=lambda message: True)
 def message_handle(message):
     global index
 
-    index = GPTSimpleVectorIndex.load_from_disk(index.json)
+    index = GPTSimpleVectorIndex.load_from_disk("index.json")
+    print(index)
 
     # Handling Incoming query from Telegram Users
     message_text = message.text
+    print(message_text)
+
     chat_id = message.chat.id
 
     if index is None:
         response = "Index is not available, Please Try Again!"
 
     else:
-        query = input(message_text)
-        response = index.query(query, response_mode="compact")
+        query = message_text
+        response = index.generate_output()
 
-        bot.send_message(chat_id=chat_id, text=response)
+    # Call the respond function here
+    respond(query, bot, chat_id)
 
 
 if aiKey:
-    # Set the directory path for GPT index
-    directory_path = (
-        "C:\\Users\\USER\\Desktop\\SOFTWARE DEVELOPMENT\\EdaTeleBot\\Information"
-    )
-
-    # Construct the GPT Index
-    index = construct_index(directory_path)
+    if not os.path.isfile("index.json"):
+        # Consstruct the GPT Index if it hasn't been created yet
+        print("Creating GPT Index")
+        index = construct_index(directory_path)
+        print("Index Created Successfully!")
+    else:
+        # Load the existing index if it has already been created
+        index = GPTSimpleVectorIndex.load_from_disk("index.json")
+        print("Index Loaded Successfully!")
 
 else:
     print("OpenAI Key not found. Please set environment variable.")
