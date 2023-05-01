@@ -2,8 +2,6 @@ import os
 
 import sys
 
-import json
-
 from gpt_index import (
     SimpleDirectoryReader,
     GPTListIndex,
