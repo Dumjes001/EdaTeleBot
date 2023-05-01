@@ -1,0 +1,123 @@
+School of Cryptocurrencies
+v1.0.0.13102022
+
+Introduction:
+The School of Cryptocurrencies (SOC) is part of EdaFace Academy.
+
+Official Name
+EdaFace School of Cryptocurrencies
+
+Vision:
+Bringing New Insight for Your Financial Freedom.
+Compartments
+
+The School of Cryptocurrencies is divided into:
+• Primary level
+• Secondary level
+• Tertiary level
+
+Architecture:
+(1). Classroom
+This platform requires sign up before a student can access it.
+(a). Components of a Classroom
+
+The Classroom will contain:
+(i). Study Room
+This is where a student will be able to:
+• see and study the SOC teaching materials.
+• monitor the progress of her study
+• print her certificates on completion of each school level
+
+(ii). Chat RoomPage 3 of 7
+This is a platform where the student can:
+• chat and interact with the other enrolled students of EdaFace SOC
+• chat directly with a School Tutor(s)
+• hold an audiovisual conference meeting with the other enrolled students of EdaFace SOC
+• hold an audiovisual conference meeting his School Tutor
+
+(iii). Announcements
+This is where the School Admin can pass information to the enrolled student.
+
+(2). Bursary
+This is the platform where a student will be able to:
+(a). to pay tuition fees
+(b). view receipt of payment
+(c). print receipt of payment
+This platform does not require sign up before anyone can access it.
+
+(3). Miscellany
+This is where New Teaching Materials can be uploaded by the School Admin.
+It will carry a lot of materials about the blockchain and the digital world.
+This platform does not require sign up before anyone can access it.
+
+(4). E-Books
+This is where a student can download:
+(i). readable format of the SOC e-books
+(ii). Audiovisual format SOC e-books
+This platform does not require sign up before anyone can access it.
+
+(5). Forums
+This is where anyone can submit chat and interact across the crypto industry.
+This platform does not require sign up before anyone can access it.
+Teaching Materials
+Readable materials
+Audio visual Materials
+
+Backoffice
+(a). Accessibility
+The Backoffice will be accessible only to the School Admin.
+(b). Characteristics
+
+The Backoffice has the following characteristics:
+(i). hold a database of all student registration
+(ii). a platform where the School Admin can modify the school materials of Primary, Secondary, or
+Tertiary levels
+(iii). a platform where the School Admin can modify the school materials for Miscellany
+(iv). Admin should be able to publish, modify, or delete an announcement
+(v). a Pricing Platform where the tuition fees can be stopped or modified.
+(vi). the School Admin should be able to ban an errant student from continuing
+(vii). the School Admin should be able to delete any student account who violates the school regulations.
+
+(c). Containerization
+There should be one Backoffice for the SOC and EdaFace Newsfeed.
+However, this one Backoffice is containerized so that the School Admin is able to login
+independently from the Newsfeed Admin.
+
+Notification
+A student should sign up with his email, names and password.Page 5 of 7
+On signing up, notification should be sent to:
+(i). the student’s email for account confirmation
+(ii). the School Admin email for admin notification
+(iii). the Backoffice for data collection
+
+Google Analytics
+This is required for the Backoffice to monitor the platform enrolment and student progress.
+Newsletter
+Student and users should be able to enroll for the SOC newsletters.
+
+The Four Characteristics
+EdaFace SOC should follow the four characterisrics of EdaFace:
+(a). Aesthetics
+The SOC should have a beautiful UI/UX design.
+
+(b). Decentralized
+Students and users of the school should be able to do the followings independently:
+(i). enroll in any of the three classes at any day and at any time
+(ii). access the school materials at any day and at any time
+(iii). take any of the assessment and receive a score for each assessment at any day and at any time
+(iv). be able to print out the certificate, which will bear the assessment score.
+
+(c). Security
+The platform should be secure enough to protect the student privacy and the school materials from
+being stollen or hacked.
+
+(d). Simplicity
+Navigation through the digital school should be simple and seamless.
+
+Buttons that have been included are:
+(i). Admin Button
+This is where the Admin can sign into the Backoffice.
+(ii). Buy Eda Token
+This button will be connected to Eda Token Launchpad so that people can buy Eda Token from the
+Launchpad (https://launchpad.edaface.com/login).
+

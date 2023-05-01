@@ -1,41 +1,13 @@
 
-Eda Aggregator Conceptualization						5th September 2021
-The idea of EDA Aggregator came into Captain’s heart on 11th June 2021 while praying, hence, it is of God. 
-On 6th August 2021, Captain met with the IT guy, Kola, who built the Digital Clinic App to discuss the EDA Aggregator. 
-But Kola claimed he was interested though not showing strong commitment. Hence, Captain started praying for direction from God.
-On Sunday 5th September 2021, while doing routine exercises at 7 to 8.45pm, Captain started receiving an illumination to contact Bro. Peter at Port Elizabeth for IT recommendation.
-On 6th September 2021, Bro. Peter was contacted on phone, who immediately recommended Tony as the IT.
-On 6th September 2021, a conference call meeting between Captain, Peter and Tony was held from 17.26pm to 18.46pm to discuss the IT component of EDA Aggregator. Another meeting was scheduled for the next day.
-On 7th September 2021, Captain met with Patricia and Victoria, EDA partners, at 10 am to 15.30pm, to discuss and pray about the EDA Aggregator. It was a Teusday, which is usually praying/fasting day for EDA partners. 
-On 7th September 2021, 7.30pm to 8.33pm, a digital conference meeting via Team platform was held between Captain, Tony, Peter, Patricia, and Victoria to discuss the EDA Aggregator. 
+EdaFace Conceptualization
 
-EDA Aggregator Team Members				06 September 2021
-Captain
-Bro. Peter
-Tony
-Patricia
-Victoria.
+On 12th May 2022, EDA as a company was inaugurated in line with the divine direction received by Captain Adiari that started as far back as on 12th May 1996. Subsequently, EDA has been successfully registered in South Africa as a private limited company. EDA is the acronym for Emerging Digital Age. 
 
-Project:
-Develop a crypto aggregator
-Mint a token for the aggregator
+EdaFace Aggregator, the first product of EDA, was a divine conceptualisation that came into Captain Adiari's heart while praying on 11th June 2021 and became fully apparent by 5th September 2021. By 6th September 2021, Captain started to assemble a Team and the following day started drawing up the lightpaper. By October 2021, initial fund raising was carried out.
 
-Project components:
-(1). Reflector of all cryptos
-(2). Reflector of all cex
-(3). Reflector of all dex
-(4). Marketplace for NFT
-(5). Marketplace for Gaming
-(6). Marketplace for African literatures
+By January 2022, EdaFace website was developed, and by April 2022, Eda Token was created as the native utility token for the aggregator. 
+Finally, on 12th May 2022, the Initial Coin Offer (ICO) of Eda Token was officially started.
 
-Prototype:
-Coinmarketcap + Coingecko + Poocoin + Dextool
-
-Road Map
-Maximum duration – 6 months
-
-Core Characteristics
-1. Uncompromisable Security
-2. Super speed
+ 
 
 

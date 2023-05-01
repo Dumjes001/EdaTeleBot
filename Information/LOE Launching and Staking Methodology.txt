@@ -1,6 +1,5 @@
-14th March 2023
 LOE Launching and Staking Methodology
-
+v1.0.0.14032023 
 
 Launching-on-EdaFace
 Launching-on-EdaFace (LOE) is the platform where you can launch your Presales on EdaFace Launchpad. 
@@ -51,31 +50,6 @@ The displayed crypto on the LOE platform is for the buyer to purchase. The proce
 (4). Fill in how much of the Presale crypto he wants to buy
 (5). Click “Buy Presale.”
 (6). By clicking the “Buy Presale” button, the equivalent amount of Eda Token will be deducted from the buyer’s staked tokens to pay for the Presale crypto, which will be deposited in his connected non-custodial wallet.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

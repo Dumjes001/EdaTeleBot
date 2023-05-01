@@ -1,15 +1,17 @@
-1
+
 Launchpad Whitepaper
-12th March 20222
+
 Introduction
-(A). EdaFace Launchpad as a Compartment
+(A). EdaFace Launchpad is a Compartment
 Generally, EdaFace is made up of 9 Components. Each Component is divided into Compartments. Some
-Components have just two Compartments while some others have more.
+Components have just two Compartments while some others have more. 
+
 Component 2, which is known as the Crypto Reflector, has three Compartments:
 (a). Spot Exchange Platform
 (b). Derivatives Exchange Platform
 (c). EdaFace Launchpad.
 Thus, EdaFace Launchpad is the 3rd Compartment of Component 2.
+
 (B). Divisions of EdaFace Launchpad
 Each Compartment of EdaFace is divided into sections known as Divisions. As a Compartment, EdaFace
 Launchpad consists of eight Divisions:
@@ -21,54 +23,46 @@ Launchpad consists of eight Divisions:
 (vi). Archived Presales
 (vii). Launching Platform
 (viii). Staking Platform
+
 (C). Anatomy of EdaFace Launchpad
 Each of the Divisions of EdaFace is organized in such a way that it is easy to navigate and offers speedy
 transactions. The structural organization of the Division is what is known as the Anatomy. Thus, the
 Anatomy is the framework of EdaFace.
+
 The following sections are the anatomical description of each of the eight divisions of EdaFace
-Launchpad.3
-Section One:
-Resource Centre
-This is where information about EdaFace Launchpad will be available. It will contain the following
+Launchpad.
+
+Section One: Resource Centre
+This is where information about EdaFace Launchpad is available. It contains the following
 information:
 • FAQ about Launchpad
 - What is a Launchpad
 - Importance of a Launchpad
 - Why You Need our Launchpad
+
 • What are these – ICO, IEO, IDO, and STO
 • How to Submit Crypto Project
 • Legal Information
+
 Note the information in this area is linked with all other resource centres of EdaFace and EDA ecosystem
 as a whole. For instance, the legal information like the Disclaimers, Listing Terms and Conditions, etc.
 should be read alongside with all the other legal information contained on EdaFace and EDA Ecosystem
 as a whole.
-Conditions for Listing on EdaFace Launchpad
-(i). Meet the platform requirements
-(i). Meet EDA Legal requirements
-(ii). Make Payment with EDA Tokens
-Benefits of EdaFace Launchpad for Users and Developers
-(i). EdaFace Launchpad provides a secure platform for clients to view, monitor and participate in crypto
-presales
-(ii). EdaFace Launchpad is a reliable platform for project developers to advertise and launch their
-projects
-(iii). EdaFace Launchpad brings users and developers together thereby simplifying crypto transaction
-and increase global crypto adoption.
-Benefits of EdaFace Launchpad for Eda Token:
-(1). EdaFace Launchpad will increase EdaFace’s traffic flow, thereby increasing the visibility of Eda Token
-(iii). Payment for using Eda Launchpad will be done with Eda Token, hence, increasing the utility of the
-token4
-Section Two:
-Eda Token Platform
-Eda Token is abbreviated as EDA, hence, Eda Token Platform will be abbreviated as EDAP.
+
+Section Two: Eda Token Platform
+Eda Token is abbreviated as EDA, hence, Eda Token Platform is abbreviated as EDAP.
+
 EDAP is the 2nd Division of EdaFace Launchpad that serves the following functions:
 (i). EDA Presales
 The Presales of Eda Token will take place on EDAP.
 (ii). Staking Function
 The Dashboard of EDAP plays a role in the staking of Eda Token.
 (iii). Post EDA Presales
+
 At the end of Eda Token Presale, EDAP will serve as the platform where you can buy Eda Token for any
 purpose such as to pay EdaFace fees and charges. For instance, you can buy EDA to transact on Digital
 Clinic, pay for enrolment in the School of Cryptocurrencies, transact on NFT Marketplace, etc.
+
 Smart Contract Integration via Web3
 To be able to run the Presales of Eda Token on EDAP, it means Eda Token, which is a BEP20 token on
 Binance Smartchain, has to be integrated into EDAP Launchpad via smart contract development and
@@ -79,6 +73,7 @@ The integration of Eda Token into the EdaFace Launchpad will ensure the followin
 (c). Development of any other functionalities that will make EdaFace Launchpad to work effectively and
 efficiently with the other parts of the entire EdaFace projects
 (d). Preparation of the Launchpad for other Crypto Project to launch their Presales
+
 The Two Sides of EDAP
 Eda Token Platform has both the USER SIDE and ADMIN SIDE.5
 The Admin Side of EDAP:
@@ -95,6 +90,7 @@ The following parameters will be displayed in each Presale Phase:
 • The timer that shows progress of the sale
 • Any other parameter(s) as shown on the Launchpad.
 Integration of Airdrops
+
 The free airdrops will be of two kinds:
 (a). Purchase Bonus:
 For every purchase, the buyer will receive extra tokens at 3% of his total purchase. This should be
@@ -107,6 +103,7 @@ The total amount of tokens set aside for Purchase Bonus will be 1.1 trillion EDA
 Thus, the overall total amount of tokens set aside for both Purchase Bonus and Referral Bonus is:
 330 billion + 1.1 trillion = 1.4 trillion EDA6
 The two airdrops (Purchase Bonus and Referral Bonus) will run automatedly.
+
 The User Side of EDAP
 The User Side of the Launchpad consists of seven (7) sections:
 (i). Dashboard
@@ -127,41 +124,22 @@ In addition, you will see your referral link, known as Referral URL, which you c
 relatives, friends, colleagues, etc. to buy Eda Token.
 When anyone buys with your Referral URL, you will receive 10% of the amount that the individual has
 purchased.
-(vii). Main Site7
+(vii). Main Site
 This division takes you to EdaFace main website.
+
 Methodology of EDAP
 The followings show how events flow through Eda Token Platform:
-(1). Eda Token will be bought at the “Buy Token” area.
-(2). The minimum amount of Eda Token per transaction that you can buy is 20 dollars.
-(3). For each purchase, you will receive the followings:
-(a). the equivalent amount of Eda Tokens that you have paid for (this is the Purchase Amount)
-(b). a 3% free bonus of Purchase Amount (this is the Purchase Bonus)
-(c). a 10% free bonus of Purchase Amount (known as Referral Bonus), which you will receive for every
+(a). Eda Token will be bought at the “Buy Token” area.
+(b). The minimum amount of Eda Token per transaction that you can buy is 20 dollars.
+(c). For each purchase, you will receive the followings:
+(i). the equivalent amount of Eda Tokens that you have paid for (this is the Purchase Amount)
+(ii). a 3% free bonus of Purchase Amount (this is the Purchase Bonus)
+(iii). a 10% free bonus of Purchase Amount (known as Referral Bonus), which you will receive for every
 purchase bought with your Referral Link
-(4). All the Eda Tokens bought will be seen in the Dashboard as well as in My Token area as the Total
+(d). All the Eda Tokens bought will be seen in the Dashboard as well as in My Token area as the Total
 Token Amount.
-Five Steps to Buy Eda Token:
-To buy Eda Token, all you need to do is to follow these five simple steps:
-First Step: Open an account with EdaFace Launchpad by signing up at launchpad.edaface.com.
-Note that you only need your name, email address and a secure password to sign up.
-Second Step: Login to your EdaFace Launchpad account with your sign-up details and click on “Buy
-Token.”
-Then type in the amount of Eda Token you want to buy and then click on “Make Payment.”
-Third Step: Select the Payment Process, agree with the Sales TCs, and click on Buy Token Now.
-This will generate a transaction Order Number (TNX...) with a Receiving Wallet Address and the exact
-Amount to pay.8
-Fourth Step: Pay into the Receiving Wallet Address with the indicated Amount.
-In case you send a different amount, the number of Eda Token will update accordingly. The minimum
-amount for purchase is 20 USD.
-Fifth Step: To speed up the verification process of your transaction, please enter your wallet address
-that you’ve paid from into the indicated place and click “Confirm Payment.”
-The amount of Eda Token that you’ve bought will appear on the Dashboard of your Launchpad Account
-after 3 blockchain confirmations.
-Note the following important information:
-(a). Do not make payment through any exchange (such as Binance and Luno). Rather you can use
-MetaMask, Trust Wallet, or any BEP20 non-custodial wallet.
-(b). EdaFace Launchpad only accepts BNB BEP20 or USDT Bep20
-Lock and Release Measures
+
+
 To further enhance stability and progressive price movement, the following Lock and Release Measures
 is enshrined:
 (a). All the Eda Tokens bought during the ICO will be locked in the Dashboard.
@@ -172,6 +150,7 @@ Trust Wallet.
 In My Token area, you will see where you can add your “receiving BEP20 wallet address”.
 (e). To show the Team commitment to the success of this project, note that the Team allocation will be
 locked for 12 months.
+
 Staking Methodology
 You are encouraged to keep your Eda Token for a longer time in order to maximise good profits.
 Remember those who kept their Bitcoins for longer period reap untold profits. The same applies with
@@ -184,13 +163,15 @@ you to stake your tokens.
 See the step-by-step on how to stake your Eda Token (that is, Staking Methodology) in the Staking
 Platform.10
 Section Three:
-Submit Presale Platform
+
+Section Three: Submit Presale Platform
 This platform is where the Presales of Crypto Projects can be submitted for launching on EdaFace
 Launchpad.
 Preparation for Submission
 • There are 16 Parameters that you will need to fill in and submit. Go through them to acquaint yourself
 and prepare the required documents ready for the submission
 • If you have all the required 16 Parameters ready, the process of Submission takes about 15 minutes.
+
 16 Required Parameters
 For you to be able to successfully submit your Presale, the following 16 Parameters will be required:
 (1). Project Title
@@ -321,8 +302,8 @@ Launchpad platform within 30 days.
 Upon submission, you will receive an automated response from EDA. Subsequently, EDA may or may not
 notify you of the verification status of your submitted Project, depending on the backlog of work. It is
 your responsibility to ensure correct documentations are submitted for Compliance Grade check.16
-Section Four:
-Ongoing Presales
+
+Section Four: Ongoing Presales
 This is the platform that will display active Presales, which refers to Crypto Projects that are currently
 running their presale crowdfunds.
 Displayed Parameters
@@ -335,8 +316,8 @@ When you click on Ongoing Presale, the following parameters will be displayed:
 (vi). Presale End Date
 (vii). Project Website
 (viii). Social Media Platforms17
-Section Five:
-Upcoming Presales
+
+Section Five: Upcoming Presales
 This is the platform that will display active Presales, which refers to Crypto Projects that are currently
 running their presale crowdfunds.
 Displayed Parameters
@@ -349,8 +330,8 @@ When you click on Upcoming Presales, the following parameters will be displayed:
 (vi). Presale End Date
 (vii). Project Website
 (viii). Social Media Platforms18
-Section Six:
-Archived Presales
+
+Section Six: Archived Presales
 This is the platform that will display past Presales, which refers to Crypto Projects that have successfully
 concluded their presales.
 Thus, any Crypto Project Presale that has been deleted due to non-Compliance Grading does not qualify
@@ -367,8 +348,8 @@ When you click on Archived Presale, the following parameters will be displayed:
 (viii). Social Media Platforms
 How Long Will a Crypto Project Be Archived?
 However, it will be a good practice if a Crypto Project can be archived forever.
-Section Seven:19
-Launching-on-EdaFace
+
+Section Seven: Launching-on-EdaFace
 Launching-on-EdaFace (LOE) is the platform where you can launch your Presales on EdaFace Launchpad.
 LOE is different from listing your coin or token on Ongoing Presale or Upcoming Presale Platforms.
 Listing on Ongoing Presale or Upcoming Presale platform is simply to advertise your Crypto Project on
@@ -413,8 +394,8 @@ Methodology for the User:
 (5). Click “Buy Presale.”
 By clicking the “Buy Presale” button, the equivalent amount of Eda Token will be deducted from your
 staked tokens to pay for the Presale crypto, which will be deposited in your connected wallet.
-Section Eight:
-Staking Platform
+
+Section Eight:Staking Platform
 This is where a crypto can be staked. It is a simplified platform to make it easy for any Eda Token holder
 to be able to stake his token.21
 Buttons
@@ -462,7 +443,8 @@ years. The longer you stake, the more interest you accumulate.
 Step 5: Select the amount of Eda Token you want to stake. Note that the higher amount you stake, the
 more profits you will make.
 Step 6: Click Confirm Stake, and your tokens will be staked to start earning a compounded interest of 5%
-APY.23
+APY.
+
 EdaFace Launchpad Resources
 Frequently Asked Questions (FAQ)
 (A). FAQ ON LAUNCHPAD
@@ -881,4 +863,23 @@ years. The longer you stake, the more interest you accumulate.
 Step 5: Select the amount of Eda Token you want to stake. Note that the higher amount you stake, the
 more profits you will make.
 Step 6: Click Confirm Stake, and your tokens will be staked to start earning a compounded interest of 5%
-APY.44
+APY.
+
+
+Conditions for Listing on EdaFace Launchpad
+(i). Meet the platform requirements
+(i). Meet EDA Legal requirements
+(ii). Make Payment with EDA Tokens
+
+Benefits of EdaFace Launchpad for Users and Developers
+(i). EdaFace Launchpad provides a secure platform for clients to view, monitor and participate in crypto
+presales
+(ii). EdaFace Launchpad is a reliable platform for project developers to advertise and launch their
+projects
+(iii). EdaFace Launchpad brings users and developers together thereby simplifying crypto transaction
+and increase global crypto adoption.
+
+Benefits of EdaFace Launchpad for Eda Token:
+(1). EdaFace Launchpad will increase EdaFace’s traffic flow, thereby increasing the visibility of Eda Token
+(iii). Payment for using Eda Launchpad will be done with Eda Token, hence, increasing the utility of the
+token4

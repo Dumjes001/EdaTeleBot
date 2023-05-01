@@ -40,22 +40,19 @@ from ._errors import (
     hf_raise_for_status,
 )
 from ._fixes import SoftTemporaryDirectory, yaml_dump
-from ._git_credential import (
-    erase_from_credential_store,
-    list_credential_helpers,
-    read_from_credential_store,
-    set_git_credential,
-    unset_git_credential,
-    write_to_credential_store,
-)
+from ._git_credential import list_credential_helpers, set_git_credential, unset_git_credential
 from ._headers import build_hf_headers, get_token_to_send
 from ._hf_folder import HfFolder
-from ._http import http_backoff
-from ._paths import filter_repo_objects
+from ._http import configure_http_backend, get_session, http_backoff
+from ._pagination import paginate
+from ._paths import filter_repo_objects, IGNORE_GIT_FOLDER_PATTERNS
+from ._experimental import experimental
 from ._runtime import (
     dump_environment_info,
     get_fastai_version,
     get_fastcore_version,
+    get_gradio_version,
+    is_gradio_available,
     get_graphviz_version,
     get_hf_hub_version,
     get_hf_transfer_version,
@@ -77,7 +74,7 @@ from ._runtime import (
     is_tf_available,
     is_torch_available,
 )
-from ._subprocess import run_interactive_subprocess, run_subprocess
+from ._subprocess import capture_output, run_interactive_subprocess, run_subprocess
 from ._validators import (
     HFValidationError,
     smoothly_deprecate_use_auth_token,

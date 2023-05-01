@@ -1,22 +1,9 @@
-
-
-
-
-
  
 NFT Resources
 v.1.0. 26092022
 
 
-
-   © 2022 EdaFace NFT Marketplace. All Right Reserved.
-
-
-
-
-
-
-
+© 2022 EdaFace NFT Marketplace. All Right Reserved.
 
 
 CONTENTS
@@ -36,27 +23,10 @@ Section Thirteen: EdaFace NFT Partnership	29
 Section Fourteen: Conclusion	30
 
 
-
-
-
-
-
-
-
-
 SECTION ONE:
 What is NFT?
 1.1. Definition
 NFT is an abbreviation for Non-Fungible Token. NFTs are digital objects that represent both tangible and intangible items in the physical world.
-
-
-
-
-
-
-
-
-
 
 1.2. The Characteristics of NFTs
 To understand what an NFT is, consider the three characteristics of an NFT:
@@ -86,6 +56,7 @@ Despite that an NFT is not divisible, several people can come together and pay f
 In other words, an NFT can have joint ownership, and any profits realised from trading such NFT are shared among the joint owners in proportion to the size of their ownership right.
 
 
+
 SECTION TWO:
 Three Types of EdaFace NFTs
 1.1. Divisions
@@ -106,7 +77,7 @@ Note that a collectible can be an item made without the intention of special int
 The digital image of a collectible can be traded as an NFT.
 Popular collectible items include: 
 • Stamps					• Ancient coins
-• Rocks						• Family artifacts
+• Rocks					• Family artifacts
 • Religious relics, etc.
 
 (3). Gaming NFTs
@@ -120,15 +91,6 @@ Metaverse is the conversion and iteration of the physical world into a virtual w
 In other words, a metaverse is a network of 3D virtual worlds focused on social connection. 
 Gaming NFTs are already prominent as part of the metaverse technology, which has rapidly grown in value to be more than 10 billion USD market capitalization.
 EdaFace plans to develop its metaverse that will have a broad range of functionalities and applications beyond gaming.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -146,9 +108,6 @@ If you are a soccer fan, imagine getting an original artistic image of one of th
 
 Hurray!!!
 NFTs are digital representations of the physical world! Meaning the days of wealth from artistic works have arrived! Don’t be left behind!
-
-
-
 
 
 
@@ -171,8 +130,6 @@ As the Crypto Market evolves, NFTs will gradually find other use cases for their
 (a). Licensing and Certification
 NFTs can be used to verify licenses and certifications.
 
-
-
 Imagine if a university crafts an NFT into each certificate it issues! What that means is that the originality of each certificate issued by the institution can easily be ascertained by checking its embedded NFT unique signatory features.
 In that way, certificate forgery will be a thing of the past, and the university administration could save a lot of time and resources required for certificate verification by simply accessing such licenses with the functionalities of their NFTs.
 
@@ -189,6 +146,8 @@ In the same manner, parents and grandparents can breed new collectibles specific
 
 Summary
 Indeed, NFTs are in their early stage of growth and development. As innovations pour in, more use cases for them will emerge.
+
+
 
 SECTION FIVE:
 How to Invest in NFTs 
@@ -210,8 +169,6 @@ There are various ways you can merchandise NFTs:
 (a). Day Trading
 This involves buying and selling NFTs.
 
-
-
 (b). Hodling 
 This is buying an NFT and holding onto it until its price appreciates before selling it at a profit. Presently, this is regarded to be the most lucrative form of NFT investment. Indeed, time is money.
 
@@ -225,11 +182,6 @@ On EdaFace NFT marketplace, you have the option to program your NFT to be receiv
 (5). DeFi activities
 As their use cases evolve, NFTs will undoubtedly feature in most decentralised financial activities such as lending and yield farming.
 In fact, the use of NFT in collateralisation will be a strong feature of DeFi in the future. Some protocols have started to accept NFTs in liquidity pools. There is no doubt that NFTs will play significant roles in the rapidly growing DeFi activities.
-
-
-
-
-
 
 
 
@@ -254,7 +206,6 @@ Therefore, don’t just buy any NFT and hope it will produce profits for you. Al
 
 
 
-
 SECTION SEVEN:
 Some Terminologies of NFTs 
 You need to understand the following terminologies associated with NFTs:
@@ -274,7 +225,6 @@ That is, once an NFT is created, the creator will enjoy royalties from the NFT t
 
 
 
-
 SECTION EIGHT:
 NFT Marketplaces 
 1.1. Introduction
@@ -282,13 +232,10 @@ NFTs are special types of cryptos. Not only do they have monetary value, but the
 In a regular wallet, NFTs appear as tokens. Therefore, to be able to see the aesthetic side of an NFT, a different type of platform will be required. These platforms are known as NFT Marketplaces.
 EdaFace NFT Marketplace is rapidly growing to be the most popular marketplace in the global crypto industry.
 
-
 1.2. Six Characteristics of EdaFace NFT Marketplace
 EdaFace NFT Marketplaces have the following unique characteristics:
 (a). Offers Audiovisual Perception
 It offers audiovisual perception of NFTs. That is, on EdaFace NFT Marketplace, you can see an NFT in its beauty and hear any sounds crafted into it.
-
-
 
 (b). Does Not Store NFTs 
 It does not have wallets and therefore does not store your NFTs. Hence, you will need to connect your wallet to EdaFace Marketplace to be able to see and hear the NFTs that are stored in your wallet.
@@ -311,7 +258,6 @@ Yes, you can. Ethereum-based NFTs can be held in Ethereum wallets, BNB-based NFT
 You cannot send an Ethereum-based NFT to a BNB wallet, and vice versa.
 However, note that the NFTs held in these conventional wallets will appear as tokens in the wallets just like any other cryptocurrency. 
 
-
 For you to view the NFTs in your wallet, your crypto wallet will have to be connected to EdaFace NFT marketplace.
 The digital connector that connects your wallet to an NFT marketplace is referred to as an NFT Bridge. 
 
@@ -325,13 +271,11 @@ The unique thing about EdaFace NFT Marketplace is that it is a multichain platfo
 In fact, it should handle all the EVM (Ethereum Virtual Machine) supported chains as well as non-EVM supported chains, which are still in construction.
 Examples of the EVM-supported chains that are part of EdaFace NFT Marketplace are:
 Ethereum			BNB Smart Chain 
-Solana				Polygon
+Solana			Polygon
 Polkadot			Avalanche
 Algorand			Huobi ECO Chain
-Fantom				Arbitrum
+Fantom			Arbitrum
 OKEx Chain 			Cardano
-
-
 
 1.6. The Three Arenas
 EdaFace Marketplace is uniquely divided into three arenas. This division allows users easy access and navigation across EdaFace Marketplace.
@@ -344,16 +288,6 @@ This platform holds all the Collectible NFTs.
 
 (3). Game Arena
 This platform holds all the Gaming NFTs.
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -377,7 +311,7 @@ To be able to transact on EdaFace NFT Marketplace, you will need the followings:
 The first thing you should have before starting to transact in NFTs is a good non-custodial crypto wallet. 
 A good number of non-custodial wallets you can use on EdaFace Marketplace are available. Common ones are:
 Metamask					Trust wallet
-Binance Chain Wallet				MyEtherWallet
+Binance Chain Wallet			MyEtherWallet
 WalletConnect
 For guidance on how to set up your non-custodial crypto wallet, check the following short videos here…. (hyperlink please)
 
@@ -396,10 +330,6 @@ Step 4: Customise your EdaFace Marketplace account
 Your default EdaFace Marketplace account will be “Unnamed.” To customize your account, use the “Settings” button at the topmost right of the platform.
 Follow the on-screen prompts to set up some extra layers of security and to agree with the terms and conditions. You can then fill in your username, personal biodata and your email address.
 Congrats, your EdaFace Marketplace account is set up and you are ready to transact with NFTs on the marketplace.
-
-
-
-
 
 
 
@@ -452,19 +382,6 @@ Congrats, you have created your NFT on EdaFace Marketplace.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 SECTION ELEVEN:
 How to Buy NFTs on EdaFace Marketplace 
 1.1. Purchase Options
@@ -486,8 +403,6 @@ This information tells you about the uniqueness of the NFT. It includes:
 • the current Owner of the NFT
 • the various breed types of the NFT
 • any special properties of the NFT
-
-
 
 (c). Trading History
 This information tells you about the rarity of the NFT. It includes: 
@@ -529,7 +444,6 @@ Step 3: If you are satisfied with the reviewed information, click the “Place B
 Step 4: You may be prompted by EdaFace Marketplace to review a few details about your purchase before finalization.
 This is to ensure that you know exactly what you’re buying and also to prevent you from the scams of buying an unauthentic version of the NFT.
 
-
 Step 5: Select the currency you'd like to place a bid on. There may be once-off fees if you bid in a currency you’ve never made a purchase with before.
 
 Step 6: Enter the amount of your offer, accept EdaFace Terms of Service, and indicate an expiration date.
@@ -537,18 +451,6 @@ The expiration date allows you to pull your offer at that time, giving the selle
 You can see a list of all offers made by returning to your profile and finding the “Offers” tab in the left-hand sidebar.
 After you have placed an offer, what you do is to wait for the seller to accept your offer.
 Of course, if you’re making an offer on an NFT you really want and there’s a lot of bids, you’ll want to monitor the bids and keep raising your offer. Like in traditional auctions, the highest bidder is the winner.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -572,8 +474,6 @@ If you choose an auction sale, you’ll also have to set the start price, price 
 Step 4: When you’ve completed all the required pricing information, you can then click the “Post Your Listing” button.
 There are no direct fees for listing your NFTs for sale on EdaFace Marketplace. However, there are some fees that will be deducted by Edaface once the sale goes through.
 
-
-
 Step 5: If this is your first time selling on the EdaFace Marketplace, you’ll also be prompted to “initialize your wallet,” which involves completing two one-time transactions:
 (a). To initialize your account for making sell orders
 (b). To allow EdaFace Marketplace to access your item (or all items in the collection, if the collection supports it) when a sale occurs. This may be needed if the item you are listing was not minted on EdaFace but through a custom NFT contract.
@@ -583,15 +483,6 @@ Remember, after this one-time initializing of your wallet, you will not be promp
 Step 6: After initializing your wallet, you’ll be asked to finalize the listing, confirm all the details, and post your NFT on the marketplace.
 Congrats on listing your NFT on EdaFace Marketplace for sale.
 You can view all the NFTs you have put up for sale by returning to your profile and selecting the “Activity” tab on the left-hand sidebar.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -635,9 +526,6 @@ For more on NFT please refer to:
 (1). The Resource Centre of EdaFace NFT Marketplace (www.nft.edaface.com) 
 (2). The School of Cryptocurrencies of EdaFace Academy (www.school.edaface.com) 
 (3). Component 5 of “How to Use EdaFace” in The Resource Centre of EdaFace website (www.edaface.com) 
-
-
-
 
 1.4. Legal Information
 All rights reserved. This document, its logo and any other trademarks, remain the property of EDA (Pty) Ltd. No part of this document may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise without the prior written permission of EDA.

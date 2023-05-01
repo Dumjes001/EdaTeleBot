@@ -2,30 +2,37 @@ Frequently Asked Questions (FAQ)
 
 FAQ on EDA
 Q: What is EDA?
-A: EDA is a registered company in South Africa that creates digital products. The company has 5 departments – Chief Executive Department (CED), Eda Labs, Department of Finance, Department of Logistics, and Department of Marketing. It is the first of its kind in Africa. 
-For more, see our Whitepaper.
+A: EDA is a registered company (Pty Ltd) in South Africa that creates digital products. EDA is an acronym for Emerging Digital Age. The company has 5 departments – Chief Executive Department (CED), Eda Labs, Department of Finance, Department of Logistics, and Department of Marketing. EDA pioneers creation and development of digital assets in Africa and beyond. For more, see our Whitepaper and litepaper... https://launchpad.edaface.com/white-paper.
 
 Q: What is the Vision and Mission of EDA?
 A: The vision is: “Bringing New Insight for your Financial Freedom.” The mission of EDA, among others, is to pioneer the digitalization process in Africa and beyond, and facilitate rapid adoption of crypto as the currency of the emerging digital age, with the ultimate goal of empowering the user and his family financially. By journeying with EDA, this vision and its mission will become realized in your life. 
 
 Q: Who are the EDA Team members?
-A: The Eda Team is made up of vibrant young experts and technocrats from across Africa and beyond. Along with its partners, the Team has a combined 42 years of crypto experience and blockchain expertise. 
-The Team is fully doxxed, and you can check up their identities in the Whitepaper. 
+A: The Eda Team is made up of vibrant young experts and technocrats from across Africa and beyond. Along with its partners, the Team has a combined 56 years of crypto experience and blockchain expertise. The Team is fully doxxed, and you can check up their identities on EdaFace website. 
+The Team is broadly divided into: 
+(i). Board of Founders (BOF) 
+You can view them at... https://edaface.com/founders.
+
+(ii). Board of Advisors (BOA)
+You can view them at... https://edaface.com/board-of-advisors.
+
+(iii). Admin Personnel
+These are personnel that run the various units of the 5 Departments of EDA.
 
 FAQ on EdaFace
 Q: What is EdaFace?
-A: EdaFace is a user interface aggregator that brings all the various functionalities of the crypto industry onto a single platform! In other words, EdaFace offers you the opportunity to track and transact in cryptos and their exchanges, engage in DeFi, display and mint NFTs, monitor the metaverse world, engage in other varieties of digital assets such as digital music and books as well as advertise, launch and crowdfund your crypto project, detect rugpulls, etc. Indeed, EdaFace is the face of the Crypto Market! 
+A: EdaFace is the first project of EDA Pty Ltd. EdaFace is a user interface aggregator that brings all the various functionalities of the crypto industry onto a single platform! In other words, EdaFace offers you the opportunity to track and transact in cryptos and their exchanges, engage in DeFi, display and mint NFTs, monitor the metaverse world, engage in other varieties of digital assets such as digital music and books as well as advertise, launch and crowdfund your crypto project, detect rugpulls, etc. Indeed, EdaFace is the face of the Crypto Market! 
 
 Q: How is EdaFace structured?
 EdaFace is made up of 9 components. Each Component is divided into two or more Compartments. Each Compartment is itself divided into Divisions, and each Division is organized in such a way that it is easy to navigate and offers speedy transactions. The structural organization of the Division is what is known as the Anatomy. Thus, the Anatomy is the framework of EdaFace.
 
 Q: When will all the 9 components of EdaFace be fully functional?
 A: Some of the components are ready while others are still being developed. You will be notified at each stage of development.
-See the Road Map in the Whitepaper.
+See the Road Map in the Whitepaper on EdaFace website (www.edaface.com).
 
 FAQ on Eda Token
 Q: What is Eda Token?
-A: Eda Token ($EDA) is a BEP20 utility token that is native to EdaFace and, indeed, to EDA ecosystem in general. It is on Binance Smartchain.
+A: Eda Token ($EDA) is a BEP20 utility token that is native to EdaFace and, indeed, to EDA ecosystem in general. It is on BNB Smart Chain. Eda Token will migrate onto its blockchain in Phase 3 Construction.
 
 Q: What makes Eda Token unique?
 A: Eda Token has unique features that set it aside from the crowd. Examples of such unique features are massive holder’s incentives, hyper-deflationary mechanism, anti-whale mechanics, staking functionality, etc.
@@ -33,26 +40,26 @@ For more, see our Whitepaper.
 
 Q: Does Eda Token have good use cases?
 A: Eda Token has multi-functional use cases. At least 13 basic use cases are associated with $EDA.
-For more, see our Whitepaper.
+For more on the utilities of Eda Token, see them here... https://edaface.com/utility. 
 
 Q: Where can I buy Eda Token?
-A: From the EdaFace Launchpad. After the Presales, you will be able to buy $EDA from decentralized and centralized exchanges such as Pancakeswab.
+A: From the EdaFace Launchpad. After the Presales, you will be able to buy $EDA from decentralized and centralized exchanges such as Pancakeswab. Note that Eda Token is now listed on Pancakeswap... https://pancakeswap.finance/swap?outputCurrency=0x6Fd2233fc16474688517F2a79472465fae00a9e8. 
 
 Q: How do I buy Eda Token from EdaFace Launchpad?
 A: Open an account on the Launchpad by clicking here…EdaFace Launchpad login
-For practical step-by-step procedure on how to buy $EDA, watch this VIDEO CLIP…
+For practical step-by-step procedure on how to buy $EDA, watch this VIDEO CLIP… https://www.youtube.com/watch?v=1M3Gj-mLrsQ&t=3s.
 
 Q: Is Eda Token audited?
-A: Yes. A preliminary audit has been done by Techrate. A further audit by Certik is on the way, and once it is ready, it will be published here.
+A: Yes. A preliminary audit has been done by Techrate. A further audit by Certik is on the way, and once it is ready, it will be published across EdaFace platforms and communities.
 
 Q: What happens after the ICO Presales?
-A: After the Presales, Eda Token will be listed in both decentralized and centralized exchanges such as Pancakeswap.
+A: After the Presales, Eda Token will be listed in both decentralized and centralized exchanges such as Pancakeswap. Note that Eda Token is now listed on Pancakeswap... https://pancakeswap.finance/swap?outputCurrency=0x6Fd2233fc16474688517F2a79472465fae00a9e8. 
 
 Q: Will there be a locking period for Eda Token bought during ICO Presales?
-A: To prevent pump and dump and encourage long-term holding that will help price growth and stability of $EDA, the token bought during the Presales will be released 10% per month to the owners wallet.
+A: To prevent pump and dump and encourage long-term holding that will help price growth and stability of $EDA, the token bought during the Presales will be released 10% per month to the owners wallet. Check Eda Token Whitepaper... https://edaface.com/stakability.
 
 Q. Is there a staking functionality for Eda Token?
-Yes. By staking your $EDA, you’ll be receiving a compounding interest of 5% APY.
+Yes. By staking your $EDA, you’ll be receiving a compounding interest of 5% APY. Check Eda Token Whitepaper... https://edaface.com/stakability.
 
 Q: Do you need KYC to open an account with EdaFace Launchpad?
 A: For now, No. However, as the Crypto Market matures, EDA may require KYC (Know your Customer) documentation in conformation with regulatory requirements.

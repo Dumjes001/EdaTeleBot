@@ -1,16 +1,35 @@
-Page 1 of 7
-Newsfeed
-20th June 2022Page 2 of 7
+EdaFace Newsfeed
+v.1.0.0. 20062022
+
 Characteristics:
-1. The News should be unique to EdaFace; that is, no 3rd-party websites.
-2. The news should be clickable, and each page should be EdaFace-customised.
-3. The Newsfeed platform to look and feel like EdaFace website
+1. EdaFace Newsfeed delivers unique news from the crypto industry, blockchain world, and the digital space in general 
+2. The news are constantly updating in real time
+3. The news are presented with eye-catching beauty and in simplistic language that allows anyone including first-time users to understand their messages. 
+
+
+Types of News
+
+EdaFace Newsfeed carries various news items that are categorised into:
+ Articles
+ Community News
+ Crypto News
+ Editor's Picks
+ Finance
+ Headlines
+ Interviews
+ Market News
+ Stock Market
+ Uncategorized
+
+
 Objectives
 1. Users can see real-time updates on news across the digital world, especially the Crypto Market.
 2. To increase traffic flow to EdaFace website.
 3. To enhance Google search engine optimization for EdaFace website
 4. To generate income from adverts
 5. To generate income from Newsletter subscription.
+
+
 Features
 1. News outlet that update in real time.
 2. Advertisement platform that will hold a minimum of 10 advertisements
@@ -19,16 +38,19 @@ Features
 5. Premium news subscription
 6. Link to Google Adsence
 7. Automatic Posting of EdaFace news to EdaFace social media platforms such as Facebook, Twitter, and
-Telegram.Page 3 of 7
-Buttons to Be Included
+
+Buttons that have been included in the Newsfeed are:
 (i). Admin Button
 This is where the Admin can sign into the backoffice of EdaFace Newsfeed Platform
+
 (ii). Buy Eda Token
 This button will be connected to Eda Token Launchpad so that people can buy Eda Token from the
 Launchpad. (The launchpad URL will be submitted later).
+
 (iii). Stake Eda Token
 This button will be connected to Eda Token Staking Platform so that users can stake Eda Token on
 EdaFace Launchpad. (The Staking Platform URL will be submitted later).
+
 (iv). Submit Advert
 This button is where project owners can submit their advertisements for publishing on EdaFace
 Newsfeed Platform.
@@ -36,6 +58,7 @@ A Submission Form page will be created as follows:
 Advert Submission Form
 This is a form where a Crypto Project can submit their advertisement for placement on EdaFace
 Newsfeed Platform.
+
 Requirements for Submission
 • EdaFace verifies any Project before listing it on its platforms. This is to prevent scams, protect the
 users, and provide more value to users’ investments.
@@ -43,7 +66,8 @@ users, and provide more value to users’ investments.
 project. See EdaFace full legal requirements at the Footnotes.
 • There are 11 Parameters that you will need to fill in this form and submit for your Project to be
 advertised on EdaFace Newsfeed Platform.
-• If you have all the required 11 Parameters ready, the process of Submission takes about 10 minutes.Page 4 of 7
+• If you have all the required 11 Parameters ready, the process of Submission takes about 10 minutes.
+
 The 11 Required Parameters
 (1). Advertisement Banner
 This should be in a pdf or a photo (jpeg, jpg, etc.) format
@@ -66,7 +90,7 @@ Submit the following details for each member of the Core Team and Advisory Team:
 EdaFace will need to confirm which company owns the Project you are submitting.
 Required Company Details are:
 (a). Registered Company name
-(b). Company Trade namePage 5 of 7
+(b). Company Trade name
 (c). Company Registration Number
 (d). Country of Registration
 (e). Website of Country’s Registration body
@@ -92,7 +116,7 @@ email such as yahoo mail, gmail, etc. will be accepted.
 listed please specify your role.
  Founder/Team Member
  PR/Marketing Agency
- I am not a Representative of this Project in any wayPage 6 of 7
+ I am not a Representative of this Project in any way
 (d). Upload a Proof of Authorisation Letter from the Company that shows you have the authorization to
 submit this Advertisement.
  Proof of Authorisation Letter has been uploaded
@@ -112,32 +136,15 @@ To make payment with Eda Token, click here… https://launchpad.edaface.com/logi
 Submit Transaction ID on https://launchpad.edaface.com/login.
 Please, indicate:
 (a). I have made payment
-(b). Transaction ID submittedPage 7 of 7
+(b). Transaction ID submitted
 (11). Submit Your Presale
 • Before you click on the Submission Button, please be sure that ALL the above 10 Required Parameters
 for Advertisement on EdaFace Newsfeed Platform have been entered. Any missing parameter may
 delay the placement of your advert.
 <<<>>> Submit your Project by Clicking here <<<>>>
-(4). Pricing
-Price List for Advertisement on EdaFace Newsfeed Platform
-Advert Placement
-Duration 1 Week 2 Weeks 3 Weeks Premium
-Pricing 0 USD (promo) 0 USD (promo) 0 USD (promo) 0 USD
-More Information Advert will be
-placed for 7 days
-Advert will be
-placed for 14
-days
-Advert will be
-placed for 21 days
-Advert will be
-placed for 30
-days and two
-newsletters
-about the
-advert send
-out to
-thousands of
-EdaFace users.
-Sign Up Sign Up Sign Up Sign Up
-USD = United States of American Dollars
+
+
+
+
+Pricing
+The Price List for Advertisement Placement on EdaFace Newsfeed Platform can be viewed here... https://news.edaface.com/pricing/.
