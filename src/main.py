@@ -1,5 +1,3 @@
-import json
-
 from flask import Flask, request
 
 from helper.openai_api import answerMe
@@ -20,12 +18,21 @@ def telegram():
     message = data["message"]
 
     query = message["text"]
-    print(query)
+
+    user_name = message["from"]["username"]
 
     sender_id = message["from"]["id"]
 
-    response = answerMe(query)
+    words = query.split(" ")
 
-    sendMessage(sender_id, response)
+    if words[0] == "/start":
+        sendMessage(
+            sender_id,
+            f"Hi! {user_name}. I am Eddy, the EdaFace Tutor. \n How may i be of assistance?",
+        )
+    else:
+        response = answerMe(query)
+
+        sendMessage(sender_id, response)
 
     return "OK", 200
