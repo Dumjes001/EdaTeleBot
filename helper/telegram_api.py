@@ -8,11 +8,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TELEGRAM_API_KEY = os.getenv("TELEGRAM_API_KEY")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 
 def sendMessage(sender_id: int, message: str) -> None:
-    url = f"https://api.telegram.org/bot{TELEGRAM_API_KEY}/sendMessage"
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
     payload = {"chat_id": sender_id, "text": str(message)}
 

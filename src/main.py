@@ -11,7 +11,7 @@ def home():
     return "OK", 200
 
 
-@app.route("/telegram", methods=["POST", "GET"])
+@app.route("/gram", methods=["POST", "GET"])
 def telegram():
     data = request.get_json()
 

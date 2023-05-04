@@ -4,8 +4,8 @@ import sys
 
 from gpt_index import (
     SimpleDirectoryReader,
-    GPTListIndex,
     GPTSimpleVectorIndex,
+    GPTListIndex,
     LLMPredictor,
     PromptHelper,
 )
