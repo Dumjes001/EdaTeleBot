@@ -1,7 +1,6 @@
 .env
 **/__pycache__g
 /myenv
-
-Procfile
+run.py
 
 
