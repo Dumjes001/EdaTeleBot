@@ -1,7 +1,9 @@
 import os
+
 import sys
-import urllib.request
-from pathlib import Path
+
+import requests
+
 from gpt_index import (
     SimpleDirectoryReader,
     GPTSimpleVectorIndex,
@@ -10,20 +12,30 @@ from gpt_index import (
     PromptHelper,
 )
 from langchain import OpenAI
+
 from dotenv import load_dotenv
 
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-def construct_index(url):
-    # download file from url and save it locally
-    filename = "file.txt"
-    urllib.request.urlretrieve(url, filename)
+# Replace the local path with the shared link URL to the data file
+path = "https://www.dropbox.com/sh/8pa2z55h3c03n9v/AABR4OUDfZSkeE_Mg3BgBjVIa?dl=1"
 
-    # set path variable to the local file path
-    path = str(Path(filename).resolve())
+def download_file(url, filename):
+    # Send an HTTP GET request to the URL to download the file
+    response = requests.get(url)
+    with open(filename, "wb") as file:
+        file.write(response.content)
 
+def construct_index(path):
+    # Download the data file to a local directory
+    download_file(path, "data_file.txt")
+
+    # This will use the file as the current working directory
+    input_dir = os.getcwd()
+
+    # The rest of your existing code here...
     max_input_size = 4096
     tokens = 256
     max_chunk_overlap = 20
@@ -43,7 +55,7 @@ def construct_index(url):
         max_input_size, tokens, max_chunk_overlap, chunk_size_limit=chunk_size_limit
     )
 
-    docs = SimpleDirectoryReader(path).load_data()
+    docs = SimpleDirectoryReader(input_dir).load_data()
 
     vectorIndex = GPTSimpleVectorIndex(
         documents=docs, llm_predictor=llm_predictor, prompt_helper=prompt_helper
@@ -54,8 +66,8 @@ def construct_index(url):
     return vectorIndex
 
 
-url = "https://www.dropbox.com/sh/8pa2z55h3c03n9v/AABR4OUDfZSkeE_Mg3BgBjVIa?dl=1"
-vectorIndex = construct_index(url)
+vectorIndex = construct_index(path)
+
 
 def answerMe(prompt: str) -> dict:
     if not os.path.isfile("index.json"):
