@@ -77,4 +77,4 @@ def answerMe(prompt: str) -> dict:
 
         response = vIndex.query(prompt, response_mode="compact")
 
-        return response
+        return response 
